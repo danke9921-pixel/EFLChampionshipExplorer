@@ -1,12 +1,22 @@
 # Author: Đani Čolaković
-# Login.py
-# Basic login and registration system (no hashing yet)
+# Login + registration system with bcrypt hashing
+# login.py
+# Login + registration system with bcrypt hashing
 
 import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 
+import bcrypt
 from database.connect import get_connection
+
+
+def hash_password(password: str) -> bytes:
+    return bcrypt.hashpw(password.encode("utf-8"), bcrypt.gensalt())
+
+
+def verify_password(password: str, hashed: bytes) -> bool:
+    return bcrypt.checkpw(password.encode("utf-8"), hashed)
 
 
 def authenticate(username, password):
@@ -20,13 +30,16 @@ def authenticate(username, password):
     user = cursor.fetchone()
     connection.close()
 
-    if user and user["password"] == password:
-        role = "admin" if username == "admin" else "fan"
-        return {
-            "username": user["username"],
-            "favourite_team": user["favourite_team"],
-            "role": role
-        }
+    if user:
+        stored_hash = user["password"]
+
+        if verify_password(password, stored_hash):
+            role = "admin" if username == "admin" else "fan"
+            return {
+                "username": user["username"],
+                "favourite_team": user["favourite_team"],
+                "role": role
+            }
 
     return None
 
@@ -45,9 +58,11 @@ def register_user(username, password, favourite_team=None):
         connection.close()
         return False
 
+    hashed = hash_password(password)
+
     cursor.execute(
         "INSERT INTO users (username, password, favourite_team) VALUES (?, ?, ?)",
-        (username, password, favourite_team)
+        (username, hashed, favourite_team)
     )
 
     connection.commit()

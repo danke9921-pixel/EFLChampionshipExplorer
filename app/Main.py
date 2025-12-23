@@ -66,7 +66,7 @@ def main():
 
                 st.write(f"User: **{username}** | Banned: **{banned}**")
 
-                col1, col2 = st.columns(2)
+                col1, col2, col3 = st.columns(3)
 
                 if banned == 0:
                     if col1.button(f"Ban {username}"):
@@ -74,10 +74,15 @@ def main():
                         conn.commit()
                         st.success(f"{username} has been banned")
                 else:
-                    if col2.button(f"Unban {username}"):
+                    if col1.button(f"Unban {username}"):
                         cursor.execute("UPDATE users SET banned = 0 WHERE username = ?", (username,))
                         conn.commit()
                         st.success(f"{username} has been unbanned")
+
+                if col3.button(f"Delete {username}"):
+                    cursor.execute("DELETE FROM users WHERE username = ?", (username,))
+                    conn.commit()
+                    st.warning(f"{username} has been deleted")
 
             conn.close()
         else:

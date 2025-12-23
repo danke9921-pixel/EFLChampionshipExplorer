@@ -1,14 +1,12 @@
 # Author: Đani Čolaković
 # Login + registration system with bcrypt hashing
-# login.py
-# Login + registration system with bcrypt hashing
 
 import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 
 import bcrypt
-from database.connect import get_connection
+from database.connect import get_db_connection
 
 
 def hash_password(password: str) -> bytes:
@@ -20,17 +18,21 @@ def verify_password(password: str, hashed: bytes) -> bool:
 
 
 def authenticate(username, password):
-    connection = get_connection()
+    connection = get_db_connection()
     cursor = connection.cursor()
 
     cursor.execute(
-        "SELECT username, password, favourite_team FROM users WHERE username = ?",
+        "SELECT username, password, favourite_team, banned FROM users WHERE username = ?",
         (username,)
     )
     user = cursor.fetchone()
     connection.close()
 
     if user:
+        # Block banned users
+        if user["banned"] == 1:
+            return "banned"
+
         stored_hash = user["password"]
 
         if verify_password(password, stored_hash):
@@ -45,7 +47,7 @@ def authenticate(username, password):
 
 
 def register_user(username, password, favourite_team=None):
-    connection = get_connection()
+    connection = get_db_connection()
     cursor = connection.cursor()
 
     cursor.execute(
@@ -61,7 +63,7 @@ def register_user(username, password, favourite_team=None):
     hashed = hash_password(password)
 
     cursor.execute(
-        "INSERT INTO users (username, password, favourite_team) VALUES (?, ?, ?)",
+        "INSERT INTO users (username, password, favourite_team, banned) VALUES (?, ?, ?, 0)",
         (username, hashed, favourite_team)
     )
 

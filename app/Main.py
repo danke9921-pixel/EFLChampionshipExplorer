@@ -5,12 +5,13 @@
 import streamlit as st
 from Login import authenticate, register_user
 from admin_page import admin_page
+from league_table import league_table_page
 
 def main():
     st.title("EFL Championship Explorer")
 
     # sidebar menu
-    menu = ["Login", "Register", "Admin", "Analytics"]
+    menu = ["Login", "Register", "Admin", "League Table"]
     choice = st.sidebar.selectbox("Menu", menu)
 
     # LOGIN PAGE
@@ -55,34 +56,16 @@ def main():
                 elif message == "weak_password":
                     st.error("Password must be at least 8 characters long and include uppercase, lowercase, number, and special character.")
 
-    # ADMIN PAGE (new system)
+    # ADMIN PAGE
     elif choice == "Admin":
-        # only admins can access this page
         if "role" in st.session_state and st.session_state["role"] == "admin":
             admin_page()
         else:
             st.error("You do not have permission to access the admin dashboard.")
 
-    # ANALYTICS PAGE
-    elif choice == "Analytics":
-        st.subheader("Championship Team Data")
-
-        import pandas as pd
-
-        try:
-            df = pd.read_csv("data/Teams.csv")
-            st.dataframe(df)
-
-            st.subheader("League Table")
-
-            league_table = df.sort_values(by="Points", ascending=False)
-            league_table.index = range(1, len(league_table) + 1)
-
-            styled_table = league_table.style.highlight_max(subset=["Points"], color="lightgreen")
-            st.dataframe(styled_table)
-
-        except FileNotFoundError:
-            st.error("Teams.csv not found. Please ensure it is located in the 'data' folder.")
+    # LEAGUE TABLE PAGE
+    elif choice == "League Table":
+        league_table_page()
 
 if __name__ == "__main__":
     main()

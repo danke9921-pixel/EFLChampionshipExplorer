@@ -3,7 +3,7 @@ import sqlite3
 
 # get all users from the database
 def get_all_users():
-    conn = sqlite3.connect("users.db")
+    conn = sqlite3.connect("Championship.db")
     cur = conn.cursor()
     cur.execute("SELECT id, username, role FROM users")
     users = cur.fetchall()
@@ -12,7 +12,7 @@ def get_all_users():
 
 # remove a user from the database
 def delete_user(user_id):
-    conn = sqlite3.connect("users.db")
+    conn = sqlite3.connect("Championship.db")
     cur = conn.cursor()
     cur.execute("DELETE FROM users WHERE id = ?", (user_id,))
     conn.commit()
@@ -20,7 +20,7 @@ def delete_user(user_id):
 
 # change a user's role to admin
 def promote_user(user_id):
-    conn = sqlite3.connect("users.db")
+    conn = sqlite3.connect("Championship.db")
     cur = conn.cursor()
     cur.execute("UPDATE users SET role = 'admin' WHERE id = ?", (user_id,))
     conn.commit()

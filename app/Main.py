@@ -3,9 +3,10 @@
 # Streamlit interface for login, registration, and admin controls
 
 import streamlit as st
-from Login import authenticate, register_user
+from Login import authenticate, register_user   #  removed create_admin_account
 from admin_page import admin_page
 from league_table import league_table_page
+
 
 def main():
     st.title("EFL Championship Explorer")
@@ -66,6 +67,7 @@ def main():
     # LEAGUE TABLE PAGE
     elif choice == "League Table":
         league_table_page()
+
 
 if __name__ == "__main__":
     main()

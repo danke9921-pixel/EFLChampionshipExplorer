@@ -16,14 +16,14 @@ def league_table_page():
     st.dataframe(df)
 
     st.subheader("League Table (Sorted by Points)")
-    table = df.sort_values(by="Points", ascending=False)
+    table = df.sort_values(by="points", ascending=False)
     table.index = range(1, len(table) + 1)
     st.dataframe(table)
 
     st.subheader("Sort Options")
     sort_choice = st.selectbox(
         "Sort teams by:",
-        ["Points", "Goals Scored", "Goals Conceded", "Wins", "Losses"]
+        ["points", "goals_for", "goals_against", "won", "lost"]
     )
 
     sorted_table = df.sort_values(by=sort_choice, ascending=False)

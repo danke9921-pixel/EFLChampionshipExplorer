@@ -11,26 +11,16 @@ from database.connect import get_db_connection
 
 
 def is_valid_password(password: str) -> bool:
-    # At least 8 characters
     if len(password) < 8:
         return False
-
-    # At least one uppercase letter
     if not re.search(r"[A-Z]", password):
         return False
-
-    # At least one lowercase letter
     if not re.search(r"[a-z]", password):
         return False
-
-    # At least one digit
     if not re.search(r"[0-9]", password):
         return False
-
-    # At least one special character
     if not re.search(r"[!@#$%^&*(),.?\":{}|<>]", password):
         return False
-
     return True
 
 
@@ -47,25 +37,23 @@ def authenticate(username, password):
     cursor = connection.cursor()
 
     cursor.execute(
-        "SELECT username, password, favourite_team, banned FROM users WHERE username = ?",
+        "SELECT username, password, favourite_team, banned, role FROM users WHERE username = ?",
         (username,)
     )
     user = cursor.fetchone()
     connection.close()
 
     if user:
-        # Block banned users
         if user["banned"] == 1:
             return "banned"
 
         stored_hash = user["password"]
 
         if verify_password(password, stored_hash):
-            role = "admin" if username == "admin" else "fan"
             return {
                 "username": user["username"],
                 "favourite_team": user["favourite_team"],
-                "role": role
+                "role": user["role"]  # REAL role from DB
             }
 
     return None
@@ -75,7 +63,7 @@ def register_user(username, password, favourite_team=None):
     connection = get_db_connection()
     cursor = connection.cursor()
 
-    # Check if username exists
+    # Check if username already exists
     cursor.execute(
         "SELECT username FROM users WHERE username = ?",
         (username,)
@@ -86,17 +74,23 @@ def register_user(username, password, favourite_team=None):
         connection.close()
         return False, "username_exists"
 
-    # Password validation
+    # Validate password
     if not is_valid_password(password):
         connection.close()
         return False, "weak_password"
 
-    # Hash password
     hashed = hash_password(password)
 
+    #  Check if an admin already exists
+    cursor.execute("SELECT COUNT(*) AS count FROM users WHERE role = 'admin'")
+    admin_exists = cursor.fetchone()["count"] > 0
+
+    # First ever user becomes admin
+    role = "admin" if not admin_exists else "user"
+
     cursor.execute(
-        "INSERT INTO users (username, password, favourite_team, banned) VALUES (?, ?, ?, 0)",
-        (username, hashed, favourite_team)
+        "INSERT INTO users (username, password, favourite_team, banned, role) VALUES (?, ?, ?, 0, ?)",
+        (username, hashed, favourite_team, role)
     )
 
     connection.commit()

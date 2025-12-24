@@ -1,6 +1,6 @@
 # Author: Đani Čolaković
 # connect.py
-# Simple SQLite connection setup
+# This is a Simple SQLite Connection Setup
 
 import sqlite3
 

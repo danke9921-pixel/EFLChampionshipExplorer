@@ -5,8 +5,33 @@ import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 
+import re
 import bcrypt
 from database.connect import get_db_connection
+
+
+def is_valid_password(password: str) -> bool:
+    # At least 8 characters
+    if len(password) < 8:
+        return False
+
+    # At least one uppercase letter
+    if not re.search(r"[A-Z]", password):
+        return False
+
+    # At least one lowercase letter
+    if not re.search(r"[a-z]", password):
+        return False
+
+    # At least one digit
+    if not re.search(r"[0-9]", password):
+        return False
+
+    # At least one special character
+    if not re.search(r"[!@#$%^&*(),.?\":{}|<>]", password):
+        return False
+
+    return True
 
 
 def hash_password(password: str) -> bytes:
@@ -50,6 +75,7 @@ def register_user(username, password, favourite_team=None):
     connection = get_db_connection()
     cursor = connection.cursor()
 
+    # Check if username exists
     cursor.execute(
         "SELECT username FROM users WHERE username = ?",
         (username,)
@@ -58,8 +84,14 @@ def register_user(username, password, favourite_team=None):
 
     if existing:
         connection.close()
-        return False
+        return False, "username_exists"
 
+    # Password validation
+    if not is_valid_password(password):
+        connection.close()
+        return False, "weak_password"
+
+    # Hash password
     hashed = hash_password(password)
 
     cursor.execute(
@@ -69,4 +101,4 @@ def register_user(username, password, favourite_team=None):
 
     connection.commit()
     connection.close()
-    return True
+    return True, "success"

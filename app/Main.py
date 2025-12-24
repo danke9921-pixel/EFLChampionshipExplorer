@@ -4,13 +4,16 @@
 
 import streamlit as st
 from Login import authenticate, register_user
+from admin_page import admin_page
 
 def main():
     st.title("EFL Championship Explorer")
 
-    menu = ["Login", "Register", "Admin"]
+    # sidebar menu
+    menu = ["Login", "Register", "Admin", "Analytics"]
     choice = st.sidebar.selectbox("Menu", menu)
 
+    # LOGIN PAGE
     if choice == "Login":
         st.subheader("Login")
 
@@ -24,10 +27,16 @@ def main():
                 st.error("Your account has been banned.")
             elif user:
                 st.success(f"Welcome {user['username']}!")
+
+                # store user role for admin access
+                st.session_state["role"] = user["role"]
+                st.session_state["username"] = user["username"]
+
                 st.write(f"Favourite Team: {user['favourite_team']}")
             else:
                 st.error("Invalid credentials")
 
+    # REGISTER PAGE
     elif choice == "Register":
         st.subheader("Register")
 
@@ -36,57 +45,44 @@ def main():
         favourite_team = st.text_input("Favourite Team")
 
         if st.button("Register"):
-            success = register_user(new_username, new_password, favourite_team)
+            success, message = register_user(new_username, new_password, favourite_team)
+
             if success:
                 st.success("Account created successfully")
             else:
-                st.error("Username already exists")
+                if message == "username_exists":
+                    st.error("Username already exists")
+                elif message == "weak_password":
+                    st.error("Password must be at least 8 characters long and include uppercase, lowercase, number, and special character.")
 
+    # ADMIN PAGE (new system)
     elif choice == "Admin":
-        st.subheader("Admin Panel")
-
-        admin_user = st.text_input("Admin Username")
-        admin_pass = st.text_input("Admin Password", type="password")
-
-        if admin_user == "admin" and admin_pass == "admin123":
-            st.success("Admin logged in")
-
-            from database.connect import get_db_connection
-            conn = get_db_connection()
-            cursor = conn.cursor()
-
-            cursor.execute("SELECT username, banned FROM users")
-            users = cursor.fetchall()
-
-            st.write("### User Management")
-
-            for u in users:
-                username = u["username"]
-                banned = u["banned"]
-
-                st.write(f"User: **{username}** | Banned: **{banned}**")
-
-                col1, col2, col3 = st.columns(3)
-
-                if banned == 0:
-                    if col1.button(f"Ban {username}"):
-                        cursor.execute("UPDATE users SET banned = 1 WHERE username = ?", (username,))
-                        conn.commit()
-                        st.success(f"{username} has been banned")
-                else:
-                    if col1.button(f"Unban {username}"):
-                        cursor.execute("UPDATE users SET banned = 0 WHERE username = ?", (username,))
-                        conn.commit()
-                        st.success(f"{username} has been unbanned")
-
-                if col3.button(f"Delete {username}"):
-                    cursor.execute("DELETE FROM users WHERE username = ?", (username,))
-                    conn.commit()
-                    st.warning(f"{username} has been deleted")
-
-            conn.close()
+        # only admins can access this page
+        if "role" in st.session_state and st.session_state["role"] == "admin":
+            admin_page()
         else:
-            st.info("Enter admin credentials to continue.")
+            st.error("You do not have permission to access the admin dashboard.")
+
+    # ANALYTICS PAGE
+    elif choice == "Analytics":
+        st.subheader("Championship Team Data")
+
+        import pandas as pd
+
+        try:
+            df = pd.read_csv("data/Teams.csv")
+            st.dataframe(df)
+
+            st.subheader("League Table")
+
+            league_table = df.sort_values(by="Points", ascending=False)
+            league_table.index = range(1, len(league_table) + 1)
+
+            styled_table = league_table.style.highlight_max(subset=["Points"], color="lightgreen")
+            st.dataframe(styled_table)
+
+        except FileNotFoundError:
+            st.error("Teams.csv not found. Please ensure it is located in the 'data' folder.")
 
 if __name__ == "__main__":
     main()

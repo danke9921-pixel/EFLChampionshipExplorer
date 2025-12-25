@@ -1,24 +1,18 @@
 import streamlit as st
 import pandas as pd
+import sqlite3
 
 # league table page
 def league_table_page():
     st.title("Championship League Table")
 
-    # load team data
-    try:
-        df = pd.read_csv("data/Teams.csv")
-    except FileNotFoundError:
-        st.error("Teams.csv not found in the data folder.")
-        return
-
-    st.subheader("Team Data")
-    st.dataframe(df)
+    # load team data from SQLite
+    conn = sqlite3.connect("Championship.db")
+    df = pd.read_sql_query("SELECT * FROM league_table ORDER BY points DESC", conn)
+    conn.close()
 
     st.subheader("League Table (Sorted by Points)")
-    table = df.sort_values(by="points", ascending=False)
-    table.index = range(1, len(table) + 1)
-    st.dataframe(table)
+    st.dataframe(df)
 
     st.subheader("Sort Options")
     sort_choice = st.selectbox(
@@ -26,6 +20,5 @@ def league_table_page():
         ["points", "goals_for", "goals_against", "won", "lost"]
     )
 
-    sorted_table = df.sort_values(by=sort_choice, ascending=False)
-    sorted_table.index = range(1, len(sorted_table) + 1)
-    st.dataframe(sorted_table)
+    sorted_df = df.sort_values(by=sort_choice, ascending=False)
+    st.dataframe(sorted_df)

@@ -3,16 +3,15 @@
 # Streamlit interface for login, registration, and admin controls
 
 import streamlit as st
-from Login import authenticate, register_user   #  removed create_admin_account
+from Login import authenticate, register_user   # removed create_admin_account
 from admin_page import admin_page
-from league_table import league_table_page
-
+# from league_table import league_table_page   # removed — handled automatically via pages/
 
 def main():
     st.title("EFL Championship Explorer")
 
     # sidebar menu
-    menu = ["Login", "Register", "Admin", "League Table"]
+    menu = ["Login", "Register", "Admin"]
     choice = st.sidebar.selectbox("Menu", menu)
 
     # LOGIN PAGE
@@ -30,7 +29,6 @@ def main():
             elif user:
                 st.success(f"Welcome {user['username']}!")
 
-                # store user role for admin access
                 st.session_state["role"] = user["role"]
                 st.session_state["username"] = user["username"]
 
@@ -63,11 +61,6 @@ def main():
             admin_page()
         else:
             st.error("You do not have permission to access the admin dashboard.")
-
-    # LEAGUE TABLE PAGE
-    elif choice == "League Table":
-        league_table_page()
-
 
 if __name__ == "__main__":
     main()

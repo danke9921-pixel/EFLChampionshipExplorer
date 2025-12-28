@@ -1,0 +1,873 @@
+team,player,position,nationality
+Watford,Nathan Baxter,GK,England
+Watford,Egil Selvik,GK,Norway
+
+Watford,James Abankwah,DEF,Ireland
+Watford,Max Alleyne,DEF,England
+Watford,Kevin Keben,DEF,England
+Watford,Mattie Pollock,DEF,England
+Watford,Marc Bola,DEF,England
+Watford,Formose Mendy,DEF,Senegal
+Watford,Jeremy Ngakia,DEF,Congo DR
+Watford,Jeremy Petris,DEF,France
+Watford,Caleb Wiley,DEF,USA
+Watford,James Morris,DEF,England
+
+Watford,Giorgi Chakvetadze,MID,Georgia
+Watford,Pierre Dwomoh,MID,Belgium
+Watford,Leo Espain,MID,England
+Watford,Tom Ince,MID,England
+Watford,Edo Kayembe,MID,Congo DR
+Watford,Hector Kyprianou,MID,Cyprus
+Watford,Imran Louza,MID,Morocco
+Watford,Nampalys Mendy,MID,Senegal
+Watford,Amar Sanghrajka,MID,England
+Watford,Moussa Sissoko,MID,France
+
+Watford,Rocco Vata,FWD,Ireland
+Watford,Kwadwo Baah,FWD,Germany
+Watford,Othane Maama,FWD,Morocco
+Watford,Jack Grieves,FWD,England
+Watford,Luca Kjerrumgaard,FWD,Denmark
+Watford,Zavier Massiah Edwards,FWD,England
+Watford,Amin Nabizada,FWD,England
+Watford,Vivaldo Semedo,FWD,Portugal
+
+Coventry City,Carl Rushworth,GK,England
+Coventry City,Oscar Varney,GK,England
+Coventry City,Ben Wilson,GK,England
+
+Coventry City,Jake Bidwell,DEF,England
+Coventry City,Miguel Brau,DEF,Spain
+Coventry City,Jay Dasilva,DEF,Wales
+Coventry City,Kaine Kesler-Hayden,DEF,England
+Coventry City,Liam Kitching,DEF,England
+Coventry City,Bobby Thomas,DEF,England
+Coventry City,Luke Woolfenden,DEF,England
+Coventry City,Milan van Ewijk,DEF,Netherlands
+
+Coventry City,Jamie Allen,MID,England
+Coventry City,Kai Andrews,MID,Wales
+Coventry City,Josh Eccles,MID,England
+Coventry City,Matt Grimes,MID,England
+Coventry City,Joel Latibeaudiere,MID,Jamaica
+Coventry City,Callum Perry,MID,England
+Coventry City,Jack Rudoni,MID,England
+Coventry City,Tatsuhiro Sakamoto,MID,Japan
+Coventry City,George Shepherd,MID,England
+Coventry City,Ellis Simms,MID,England
+Coventry City,Victor Torp,MID,Norway
+
+Coventry City,Mason Clark,FWD,England
+Coventry City,Thomas Asante,FWD,Ghana
+Coventry City,Haji Wright,FWD,USA
+
+Middlesbrough,Solomon Brynn,GK,England
+Middlesbrough,Nathan Fisher,GK,England
+Middlesbrough,Jon McLaughlin,GK,Scotland
+
+Middlesbrough,Luke Ayling,DEF,England
+Middlesbrough,Alex Bangura,DEF,Sierra Leone
+Middlesbrough,Archie Baptiste,DEF,England
+Middlesbrough,Callum Brittain,DEF,England
+Middlesbrough,George Edmundson,DEF,England
+Middlesbrough,Dael Fry,DEF,England
+Middlesbrough,Alfie Jones,DEF,Canada
+Middlesbrough,Darragh Lenihan,DEF,Ireland
+Middlesbrough,George McCormick,DEF,England
+Middlesbrough,Matt Targett,DEF,England
+Middlesbrough,James Wilson,DEF,England
+
+Middlesbrough,Alan Browne,MID,Ireland
+Middlesbrough,Fin Cartwright,MID,England
+Middlesbrough,Alex Gilbert,MID,Ireland
+Middlesbrough,Hayden Hackney,MID,England
+Middlesbrough,Cruz Ibeh,MID,England
+Middlesbrough,Brayden Johnson,MID,England
+Middlesbrough,Abdoulaye Kante,MID,Ivory Coast
+Middlesbrough,Riley McGree,MID,Australia
+Middlesbrough,Aidan Morris,MID,USA
+Middlesbrough,Sverre Nypan,MID,Norway
+
+Middlesbrough,Delano Burgzorg,FWD,Suriname
+Middlesbrough,Tommy Conway,FWD,Scotland
+Middlesbrough,Sonny Finch,FWD,England
+Middlesbrough,Micah Hamilton,FWD,England
+Middlesbrough,Sontje Hansen,FWD,Curacao
+Middlesbrough,Rio Patterson Powell,FWD,England
+Middlesbrough,Mamadou Kaly Sene,FWD,Senegal
+Middlesbrough,Sam Silvera,FWD,Australia
+Middlesbrough,David Strelec,FWD,Slovakia
+Middlesbrough,Morgan Whittaker,FWD,England
+
+Ipswich Town,David Button,GK,England
+Ipswich Town,Alex Palmer,GK,England
+Ipswich Town,Christian Walton,GK,England
+
+Ipswich Town,Elkan Baggott,DEF,Indonesia
+Ipswich Town,Harry Clarke,DEF,England
+Ipswich Town,Leif Davis,DEF,England
+Ipswich Town,Darnell Furlong,DEF,England
+Ipswich Town,Jacob Greaves,DEF,England
+Ipswich Town,Benjamin Johnson,DEF,England
+Ipswich Town,Cedric Kipre,DEF,Ireland
+Ipswich Town,Dara O'Shea,DEF,Ireland
+Ipswich Town,Conor Townsend,DEF,England
+Ipswich Town,Ashley Young,DEF,England
+
+Ipswich Town,Wes Burns,MID,Wales
+Ipswich Town,Jens Cajuste,MID,Sweden
+Ipswich Town,Cameron Humphreys,MID,England
+Ipswich Town,Azor Matusiwa,MID,Netherlands
+Ipswich Town,Marcelino Nunez,MID,Chile
+Ipswich Town,Sammie Szmodics,MID,Ireland
+Ipswich Town,Jack Taylor,MID,Ireland
+
+Ipswich Town,Chuba Apkom,FWD,England
+Ipswich Town,Leon Ayinde,FWD,Ireland
+Ipswich Town,Azon Monzon Ivan,FWD,Spain
+Ipswich Town,Jack Clarke,FWD,England
+Ipswich Town,Sindre Walle Egeli,FWD,Norway
+Ipswich Town,George Hirst,FWD,Scotland
+Ipswich Town,Kasey McAteer,FWD,Ireland
+Ipswich Town,Jaden Philogene,FWD,England
+
+Hull City,Ivor Pandur,GK,Croatia
+Hull City,Dillion Phillips,GK,England
+
+Hull City,Semi Ajayi,DEF,Nigeria
+Hull City,Stanley Ashbee,DEF,Ireland
+Hull City,Lewie Coyle,DEF,England
+Hull City,Cody Drameh,DEF,England
+Hull City,John Egan,DEF,Ireland
+Hull City,Akin Famewo,DEF,England
+Hull City,Ryan Giles,DEF,England
+Hull City,Charlie Hughes,DEF,England
+Hull City,Cathal McCarthy,DEF,Ireland
+Hull City,Zane Myers,DEF,England
+Hull City,Calvin Okike,DEF,Nigeria
+Hull City,Noah Wadsworth,DEF,England
+Hull City,Brandon Williams,DEF,England
+
+Hull City,Matt Crooks,MID,England
+Hull City,Darko Gyabi,MID,England
+Hull City,Amir Hadžiametović,MID,Bosnia & Herzegovina
+Hull City,John Lundstram,MID,England
+Hull City,Kasey Palmer,MID,Jamaica
+Hull City,Aidon Shehu,MID,Albania
+Hull City,Regan Slater,MID,England
+Hull City,Nathan Tinsdale,MID,England
+Hull City,Harry Vaughan,MID,England
+
+Hull City,Babajide David Akintola,FWD,Nigeria
+Hull City,Mohamed Belloumi,FWD,Algeria
+Hull City,Enis Destan,FWD,Turkey
+Hull City,Joe Gelhardt,FWD,England
+Hull City,Kyle Joseph,FWD,Scotland
+Hull City,Oliver McBurnie,FWD,Scotland
+Hull City,Liam Millar,FWD,Canada
+Hull City,Joel Ndala,FWD,England
+Hull City,Hugh Parker,FWD,England
+
+Preston North End,David Cornell,GK,Wales
+Preston North End,Daniel Iversen,GK,Denmark
+Preston North End,Jack Walton,GK,England
+
+Preston North End,Lewis Gibson,DEF,England
+Preston North End,Andrew Hughes,DEF,Wales
+Preston North End,Liam Lindsay,DEF,Scotland
+Preston North End,Ed Nolan,DEF,England
+Preston North End,Odeluga Offiah,DEF,England
+Preston North End,Kacper Pasiek,DEF,Poland
+Preston North End,Thierry Small,DEF,England
+Preston North End,Jordan Storey,DEF,England
+Preston North End,Troy Tarry,DEF,England
+Preston North End,Pol Valentin Sancho,DEF,Spain
+Preston North End,Andrija Vukčević,DEF,Montenegro
+
+Preston North End,Harrison Armstrong,MID,England
+Preston North End,Robbie Brady,MID,Ireland
+Preston North End,Theo Carroll,MID,England
+Preston North End,Alfie Devine,MID,England
+Preston North End,Mads Frokjaer-Jensen,MID,Denmark
+Preston North End,Kaedyn Kamara,MID,England
+Preston North End,Jamal Lewis,MID,England
+Preston North End,Noah Mawene,MID,England
+Preston North End,Ali McCann,MID,England
+Preston North End,Brad Potts,MID,England
+Preston North End,Jordan Thompson,MID,England
+Preston North End,Stefan Teitur Thordarson,MID,Iceland
+
+Preston North End,Michael Ayodele,FWD,England
+Preston North End,Lewis Dobbin,FWD,England
+Preston North End,Felipe,FWD,Argentina
+Preston North End,George Gryba,FWD,England
+Preston North End,Daniel Jebbison,FWD,Canada
+Preston North End,Will Keane,FWD,Ireland
+Preston North End,Michael Smith,FWD,England
+Preston North End,Milutin Osmajić,FWD,Montenegro
+
+Bristol City,Josey Casa Grande,GK,New Zealand
+Bristol City,Joe Lumley,GK,England
+Bristol City,Max O'Leary,GK,Ireland
+Bristol City,Lewis Thomas,GK,Wales
+Bristol City,Radek Vitek,GK,Czechia
+
+Bristol City,Robert Atkinson,DEF,England
+Bristol City,Dickie Robert,DEF,England
+Bristol City,Ross McCrorie,DEF,Scotland
+Bristol City,Borges Neto,DEF,Brazil
+Bristol City,Cameron Pring,DEF,England
+Bristol City,Haydon Roberts,DEF,England
+Bristol City,George Tanner,DEF,England
+Bristol City,Zak Vyner,DEF,Kenya
+
+Bristol City,Max Bird,MID,England
+Bristol City,Louie Derrick,MID,England
+Bristol City,Jason Knight,MID,Ireland
+Bristol City,Jed Meerholz,MID,England
+Bristol City,Elijah Morrison,MID,England
+Bristol City,Adam Randell,MID,England
+Bristol City,Josh Stokes,MID,England
+Bristol City,Mark Sykes,MID,Ireland
+Bristol City,Scott Twine,MID,England
+
+Bristol City,Sinclair Armstrong,FWD,Ireland
+Bristol City,Harry Cornick,FWD,England
+Bristol City,Yu Hirakawa,FWD,Japan
+Bristol City,Fally Mayulu,FWD,France
+Bristol City,Anis Mehmeti,FWD,Albania
+Bristol City,Raekwon Nelson,FWD,England
+Bristol City,Leo Pecover,FWD,England
+Bristol City,Billy Phillips,FWD,England
+Bristol City,Olly Thomas,FWD,England
+Bristol City,Ephraim Yeboah,FWD,Italy
+Bristol City,Emil Riis,FWD,Denmark
+
+Millwall,Stevan Benda,GK,Germany
+Millwall,Joel Coleman,GK,England
+Millwall,Max Crocombe,GK,New Zealand
+Millwall,Jakub Przewozny,GK,Poland
+
+Millwall,Joe Bryan,DEF,England
+Millwall,Jake Cooper,DEF,England
+Millwall,Tristan Crama,DEF,France
+Millwall,Kamarl Grant,DEF,England
+Millwall,Wes Harding,DEF,Jamaica
+Millwall,Ryan Leonard,DEF,England
+Millwall,Dan McNamara,DEF,Ireland
+Millwall,Zak Sturge,DEF,England
+Millwall,Caleb Taylor,DEF,England
+
+Millwall,Femi Azeez,MID,England
+Millwall,Thierno Ballo,MID,Austria
+Millwall,Luke Cundle,MID,England
+Millwall,Casper De Norre,MID,Belgium
+Millwall,Alfie Doughty,MID,England
+Millwall,Jack Howland,MID,England
+Millwall,Daniel Kelly,MID,Scotland
+Millwall,Rafiq Lamptey,MID,England
+Millwall,Massimo Luongo,MID,Australia
+Millwall,Ellias Mansor,MID,Afghanistan
+Millwall,Derek Mazou Sacko,MID,France
+Millwall,Billy Mitchell,MID,England
+Millwall,William Smallbone,MID,Ireland
+
+Millwall,Benicio Baker-Boaitey,FWD,England
+Millwall,Raees Bangura-Williams,FWD,England
+Millwall,Joshua Coburn,FWD,England
+Millwall,Aidomo Emakhu,FWD,Ireland
+Millwall,Sheldon Kendall,FWD,England
+Millwall,Macaulay Langstaff,FWD,England
+Millwall,Zak Lovelace,FWD,England
+Millwall,Ajay Matthews,FWD,England
+Millwall,Caniel Neghli,FWD,Algeria
+Millwall,Mihailo Ivanović,FWD,Serbia
+
+QPR,Ben Hamer,GK,England
+QPR,Paul Nardi,GK,France
+QPR,Matteo Salamon,GK,England
+QPR,Joe Walsh,GK,England
+
+QPR,Kealey Adamson,DEF,Australia
+QPR,Timothy Akindileni,DEF,Czechia
+QPR,Jake Clarke-Salter,DEF,England
+QPR,Steve Cook,DEF,England
+QPR,Jimmy Dunne,DEF,Ireland
+QPR,Esquerdinha,DEF,Brazil
+QPR,Ziyad Larkeche,DEF,France
+QPR,Leahy,DEF,England
+QPR,Amadou Salif Mbengue,DEF,Senegal
+QPR,Liam Morrison,DEF,Scotland
+QPR,Rhys Norrington-Davies,DEF,Wales
+QPR,Tylon Smith,DEF,South Africa
+QPR,Alex Wilkie,DEF,England
+
+QPR,Alexander Aoraha,MID,Iraq
+QPR,Ilias Chair,MID,Morocco
+QPR,Karamoko Dembele,MID,England
+QPR,Sam Field,MID,England
+QPR,Isaac Hayden,MID,Jamaica
+QPR,Nicolas Madsen,MID,Denmark
+QPR,Kieran Morgan,MID,England
+QPR,Jaylan Pearman,MID,Australia
+QPR,Kwame Poku,MID,Ghana
+QPR,Teddy Tarbotton,MID,England
+QPR,Ashley Trujillo,MID,Colombia
+QPR,Alfie Tuck,MID,Wales
+QPR,Harvey Vale,MID,England
+QPR,Jonathan Varane,MID,Martinique
+
+QPR,Daniel Bennie,FWD,Australia
+QPR,Kalen Brunson,FWD,Bermuda
+QPR,Rumarn Burrell,FWD,Jamaica
+QPR,Cian Dillon,FWD,Ireland
+QPR,Michael Frey,FWD,Switzerland
+QPR,Rayan Kolli,FWD,Algeria
+QPR,Richard Kone,FWD,Ireland
+QPR,Koki Saito,FWD,Japan
+QPR,Paul Smyth,FWD,England
+
+Stoke City,Viktor Johansson,GK,Sweden
+Stoke City,Jack Bonham,GK,Republic of Ireland
+Stoke City,Frank Fielding,GK,England
+
+Stoke City,Aaron Cresswell,DEF,England
+Stoke City,Ben Wilmot,DEF,England
+Stoke City,Sydney Agina,DEF,England
+Stoke City,Eric Bocat,DEF,France
+Stoke City,Jaden Dixon,DEF,England
+Stoke City,Laurence Giani,DEF,Italy
+Stoke City,Benjamin Gibson,DEF,England
+Stoke City,Jake Griffin,DEF,Ireland
+Stoke City,Bosun Lawal,DEF,Ireland
+Stoke City,Jaden Mears,DEF,England
+Stoke City,Ashley Phillips,DEF,England
+Stoke City,Maksym Talovierov,DEF,Ukraine
+Stoke City,Junior Tchamadeu,DEF,Cameroon
+
+Stoke City,Jun-Ho Bae,MID,South Korea
+Stoke City,Lewis Baker,MID,England
+Stoke City,Chionso Chilbueze,MID,England
+Stoke City,Ruben Curley,MID,England
+Stoke City,Gabriel Kelly,MID,Ireland
+Stoke City,Steven N'Zonzi,MID,France
+Stoke City,Ben Pearson,MID,England
+Stoke City,Tomas Rigo,MID,Slovakia
+Stoke City,Tatsuki Seko,MID,Japan
+Stoke City,William Smith,MID,England
+
+Stoke City,Robert Boženík,FWD,Slovakia
+Stoke City,Lamine Cisse,FWD,France
+Stoke City,Jamie Donley,FWD,Northern Ireland
+Stoke City,Favour Fawunmi,FWD,England
+Stoke City,Sam Gallagher,FWD,England
+Stoke City,Divin Mubama,FWD,England
+Stoke City,Sorba Thomas,FWD,Wales
+Stoke City,Million Manhoef,FWD,Netherlands
+
+Derby County,Richard O'Donnell,GK,Northern Ireland
+Derby County,Josh Vickers,GK,England
+Derby County,Jacob Widell Zetterstrom,GK,Sweden
+
+Derby County,Danny Bath,DEF,England
+Derby County,Owen Beck,DEF,Wales
+Derby County,Matt Clarke,DEF,England
+Derby County,Callum Elder,DEF,Australia
+Derby County,Craig Forsyth,DEF,Scotland
+Derby County,Isaac Gordon,DEF,England
+Derby County,Max Johnston,DEF,Scotland
+Derby County,Sondre Langas,DEF,Norway
+Derby County,Curtis Nelson,DEF,England
+Derby County,Ryan Nyambe,DEF,Namibia
+Derby County,Keillen Robinson,DEF,England
+Derby County,Dion Sanderson,DEF,England
+
+Derby County,Ebou Adams,MID,Gambia
+Derby County,Bobby Clark,MID,England
+Derby County,Owen Eames,MID,England
+Derby County,Harry Hawkins,MID,England
+Derby County,David Ozoh,MID,England
+Derby County,Darren Robinson,MID,England
+Derby County,Liam Thompson,MID,England
+Derby County,Lewis Travis,MID,England
+Derby County,Freddie Turley,MID,Ireland
+Derby County,Joe Ward,MID,England
+Derby County,Andreas Weimann,MID,Austria
+
+Derby County,Patrick Agyemang,FWD,USA
+Derby County,Corey Blackett-Taylor,FWD,England
+Derby County,Ben Diaz Brereton,FWD,Chile
+Derby County,Rhian Brewster,FWD,England
+Derby County,Charles Ebuka,FWD,England
+Derby County,Kayden Jackson,FWD,England
+Derby County,Carlton Morris,FWD,England
+Derby County,Lars-Jørgen Salvesen,FWD,Norway
+Derby County,Lennon Wheeldon,FWD,England
+
+Southampton,Gavin Bazunu,GK,Ireland
+Southampton,George Long,GK,England
+Southampton,Alex McCarthy,GK,England
+Southampton,Dylan Moody,GK,England
+
+Southampton,Ronnie Edwards,DEF,England
+Southampton,Taylor Harwood-Bellis,DEF,England
+Southampton,Ellias Jelert,DEF,Denmark
+Southampton,Ryan Manning,DEF,Ireland
+Southampton,Jayden Moore,DEF,England
+Southampton,Joshua Quarshie,DEF,Germany
+Southampton,Mads Roerslev Rasmussen,DEF,Denmark
+Southampton,Jack Stephens,DEF,England
+Southampton,Samuel Tabares,DEF,England
+Southampton,Wellington,DEF,Brazil
+Southampton,Nathan Wood,DEF,England
+
+Southampton,Romeo Akachukwu,MID,Ireland
+Southampton,Joe Aribo,MID,Nigeria
+Southampton,Finn Azaz,MID,Ireland
+Southampton,Cameron Bragg,MID,Scotland
+Southampton,Shea Charles,MID,Northern Ireland
+Southampton,Flynn Downes,MID,England
+Southampton,Tom Fellows,MID,England
+Southampton,Ryan Fraser,MID,Scotland
+Southampton,Caspar Jander,MID,Germany
+Southampton,Kuryu Matsuki,MID,Japan
+Southampton,Oriol Romeu,MID,Spain
+Southampton,Moses Sesay,MID,England
+Southampton,Barnaby Williams,MID,England
+
+Southampton,Cameron Archer,FWD,England
+Southampton,Adam Armstrong,FWD,England
+Southampton,Damion Downs,FWD,USA
+Southampton,Samuel Edozie,FWD,England
+Southampton,Nicholas Oyekunie,FWD,England
+Southampton,Jay Robinson,FWD,England
+Southampton,Leo Scienza,FWD,Brazil
+Southampton,Ross Stewart,FWD,Scotland
+
+Wrexham,Callum Burton,GK,England
+Wrexham,Arthur Okonkwo,GK,England
+Wrexham,Danny Ward,GK,Wales
+
+Wrexham,Lewis Brunt,DEF,England
+Wrexham,Liberato Cacace,DEF,New Zealand
+Wrexham,Max Cleworth,DEF,Wales
+Wrexham,Conor Coady,DEF,England
+Wrexham,Callum Doyle,DEF,England
+Wrexham,Dominic Hyam,DEF,Scotland
+Wrexham,Aaron James,DEF,England
+Wrexham,Issa Kabore,DEF,Burkina Faso
+Wrexham,Dan Scarr,DEF,England
+
+Wrexham,Harry Ashfield,MID,Wales
+Wrexham,Ryan Barnett,MID,England
+Wrexham,Nathan Broadhead,MID,Wales
+Wrexham,George Dobson,MID,England
+Wrexham,Matthew James,MID,England
+Wrexham,Elliot Lee,MID,England
+Wrexham,Ryan Longman,MID,England
+Wrexham,McClean James,MID,Ireland
+Wrexham,Lewis O'Brien,MID,England
+Wrexham,Oliver Rathbone,MID,England
+Wrexham,Ben Sheaf,MID,England
+Wrexham,George Thomason,MID,England
+Wrexham,Josh Windass,MID,England
+
+Wrexham,Ryan Hardie,FWD,Scotland
+Wrexham,Kieffer Moore,FWD,Wales
+Wrexham,Jay Rodriguez,FWD,England
+Wrexham,Sam Smith,FWD,England
+
+Leicester City,Asmir Begović,GK,Bosnia & Herzegovina
+Leicester City,Jakub Stolarczyk,GK,Poland
+Leicester City,Francisco Vietes,GK,Spain
+
+Leicester City,Olabade Aluko,DEF,England
+Leicester City,Wout Faes,DEF,Belgium
+Leicester City,Victor Kristiansen,DEF,Denmark
+Leicester City,Benjamin Nelson,DEF,England
+Leicester City,Caleb Okoli,DEF,Italy
+Leicester City,Louis Page,DEF,England
+Leicester City,Ricardo Pereira,DEF,Portugal
+Leicester City,Luke Thomas,DEF,England
+Leicester City,Jannik Vestergaard,DEF,Denmark
+
+Leicester City,Hamza Choudhury,MID,Bangladesh
+Leicester City,Bobby De Cordova Reid,MID,Jamaica
+Leicester City,Michael Golding,MID,England
+Leicester City,Jordan James,MID,Wales
+Leicester City,Wanya Marcal,MID,Portugal
+Leicester City,Aaron Ramsey,MID,England
+Leicester City,Oliver Skipp,MID,England
+Leicester City,Boubakary Soumaré,MID,France
+Leicester City,Harry Winks,MID,England
+
+Leicester City,Jordan Ayew,FWD,Ghana
+Leicester City,Julian Carranza,FWD,Argentina
+Leicester City,Patson Daka,FWD,Zambia
+Leicester City,Jake Evans,FWD,England
+Leicester City,Issahaku Fatawu,FWD,Ghana
+Leicester City,Stephy Mavididi,FWD,Congo DR
+Leicester City,Jeremy Monga,FWD,England
+Leicester City,Silko Thomas,FWD,England
+
+Birmingham City,Ryan Allsop,GK,England
+Birmingham City,James Beadle,GK,England
+Birmingham City,Bradley Mayo,GK,England
+
+Birmingham City,Eiran Cashin,DEF,Ireland
+Birmingham City,Alexander Cochrane,DEF,England
+Birmingham City,Cristoph Klarer,DEF,Austria
+Birmingham City,Ethan Laird,DEF,England
+Birmingham City,Phil Neumann,DEF,Germany
+Birmingham City,Bright Osayi-Samuel,DEF,Nigeria
+Birmingham City,Jack Robinson,DEF,England
+Birmingham City,Alfons Sampsted,DEF,Iceland
+
+Birmingham City,Trae Briscoe,MID,England
+Birmingham City,Alezandro Da Silva,MID,England
+Birmingham City,Thomas Doyle,MID,England
+Birmingham City,Ellis O'Shea,MID,England
+Birmingham City,Kanya Fujimoto,MID,Japan
+Birmingham City,Tomoki Iwata,MID,Japan
+Birmingham City,Lewis Koumas,MID,Wales
+Birmingham City,Marc Leonard,MID,Scotland
+Birmingham City,Seung-Ho Paik,MID,South Korea
+Birmingham City,Cody Pennington,MID,England
+Birmingham City,Willum Þór Willumsson,MID,Iceland
+Birmingham City,George Wynne,MID,England
+
+Birmingham City,Keshi Anderson,FWD,England
+Birmingham City,Briar Bateman,FWD,England
+Birmingham City,Zaid Betteka,FWD,Algeria
+Birmingham City,Marvin Ducksch,FWD,Germany
+Birmingham City,Lyndon Dykes,FWD,Scotland
+Birmingham City,Kyogo Furuhashi,FWD,Japan
+Birmingham City,Demarai Gray,FWD,Jamaica
+Birmingham City,Daniel Isichei,FWD,England
+Birmingham City,Patrick Roberts,FWD,England
+Birmingham City,Jay Stansfield,FWD,England
+
+West Brom,Joshua Griffiths,GK,England
+West Brom,Joe Wallis,GK,New Zealand
+West Brom,Joe Wildsmith,GK,England
+
+West Brom,George Campbell,DEF,USA
+West Brom,Muhamed Diomande,DEF,Italy
+West Brom,Noah Dupont,DEF,New Zealand
+West Brom,Alfie Gilchrist,DEF,England
+West Brom,Chris Mepham,DEF,Wales
+West Brom,Jamal Mohammed,DEF,England
+West Brom,Nathaniel Phillips,DEF,England
+West Brom,Charlie Taylor,DEF,England
+West Brom,Alex Williams,DEF,Wales
+
+West Brom,Krystian Bielik,MID,Poland
+West Brom,Oliver Bostock,MID,Wales
+West Brom,Toby Collyer,MID,England
+West Brom,Ousmane Diakite,MID,Senegal
+West Brom,Kevin Mfuamba,MID,England
+West Brom,Jayson Molumby,MID,Ireland
+West Brom,Alex Mowatt,MID,England
+West Brom,Isaac Price,MID,Northern Ireland
+West Brom,Callum Styles,MID,Hungary
+
+West Brom,Tammer Bany,FWD,Jordan
+West Brom,Daryl Dike,FWD,USA
+West Brom,Karlan Grant,FWD,England
+West Brom,Aune Heggebo,FWD,Norway
+West Brom,Samuel Illing Junior,FWD,England
+West Brom,Mikey Johnston,FWD,Ireland
+West Brom,Josh Maja,FWD,Nigeria
+West Brom,Jed Wallace,FWD,England
+
+Swansea City,Paul Farman,GK,England
+Swansea City,Andy Fisher,GK,England
+Swansea City,Lawrence Vigouroux,GK,Chile
+
+Swansea City,Cameron Burgess,DEF,Australia
+Swansea City,Benjamin Cabango,DEF,Wales
+Swansea City,Kaelan Casey,DEF,England
+Swansea City,Josh Key,DEF,England
+Swansea City,Arthur Parker,DEF,England
+Swansea City,Ishe Samuels-Smith,DEF,England
+Swansea City,Ricardo Santos,DEF,Cape Verde
+Swansea City,Josh Tymon,DEF,England
+
+Swansea City,Ji-Sung Eom,MID,England
+Swansea City,Goncalo Franco,MID,Portugal
+Swansea City,Jay Fulton,MID,Scotland
+Swansea City,Ethan Galbraith,MID,Northern Ireland
+Swansea City,Samuel Parker,MID,Wales
+Swansea City,Marko Stamenić,MID,New Zealand
+Swansea City,Melker Widell,MID,Sweden
+Swansea City,Malick Yacouye,MID,Ivory Coast
+
+Swansea City,Manuel Benson,FWD,Angola
+Swansea City,Liam Cullen,FWD,Wales
+Swansea City,Adam Idah,FWD,Ireland
+Swansea City,Zeidane Inoussa,FWD,Sweden
+Swansea City,Ronald,FWD,Brazil
+Swansea City,Bobby Wales,FWD,Scotland
+Swansea City,Zan Vipotnik,FWD,Slovenia
+
+Charlton Athletic,Thomas Kaminski,GK,Belgium
+Charlton Athletic,William Mannion,GK,England
+Charlton Athletic,Ashley Maynard-Brewer,GK,Australia
+
+Charlton Athletic,Amari'I Bell,DEF,Jamaica
+Charlton Athletic,James Bree,DEF,England
+Charlton Athletic,Reece Burke,DEF,England
+Charlton Athletic,Joshua Edwards,DEF,Scotland
+Charlton Athletic,Ty Ewens Findlay,DEF,England
+Charlton Athletic,Macaulay Gillesphey,DEF,England
+Charlton Athletic,Ollie Hobden,DEF,England
+Charlton Athletic,Lloyd Jones,DEF,England
+Charlton Athletic,Kayne Ramsay,DEF,England
+Charlton Athletic,Joe Rankin-Costello,DEF,England
+
+Charlton Athletic,Karoy Anderson,MID,Jamaica
+Charlton Athletic,Luke Berry,MID,England
+Charlton Athletic,Sonny Carey,MID,England
+Charlton Athletic,Conor Coventry,MID,Ireland
+Charlton Athletic,Greg Docherty,MID,Scotland
+Charlton Athletic,Ibrahim Fullah,MID,England
+Charlton Athletic,Keenan Gough,MID,England
+Charlton Athletic,Onel Hernandez,MID,Cuba
+Charlton Athletic,Harvey Knibbs,MID,England
+Charlton Athletic,Josh Laqeretabua,MID,Fiji
+Charlton Athletic,Alan Mwamba,MID,England
+Charlton Athletic,Jerome Roussillon,MID,France
+
+Charlton Athletic,Robert Apter,FWD,Scotland
+Charlton Athletic,Tyreece Campbell,FWD,Jamaica
+Charlton Athletic,Kai Enslin,FWD,Japan
+Charlton Athletic,Charlie Kelman,FWD,USA
+Charlton Athletic,Miles Leaburn,FWD,England
+Charlton Athletic,Paris Lock,FWD,England
+Charlton Athletic,Tanto Olaofe,FWD,England
+Charlton Athletic,Reuben Reid,FWD,England
+Charlton Athletic,Henry Rylah,FWD,England
+
+Blackburn Rovers,Felix Goddard,GK,England
+Blackburn Rovers,Nicholas Michalski,GK,England
+Blackburn Rovers,Aynsley Pears,GK,England
+Blackburn Rovers,Balazs Toth,GK,Hungary
+
+Blackburn Rovers,Ryan Alebiosu,DEF,Nigeria
+Blackburn Rovers,Tom Atcheson,DEF,England
+Blackburn Rovers,Jake Batty,DEF,England
+Blackburn Rovers,Hayden Carter,DEF,England
+Blackburn Rovers,Taylor Gardner-Hickman,DEF,England
+Blackburn Rovers,Matty Litherland,DEF,England
+Blackburn Rovers,Sean McLoughlin,DEF,Ireland
+Blackburn Rovers,Lewis Miller,DEF,Australia
+Blackburn Rovers,Harry Pickering,DEF,England
+Blackburn Rovers,George Pratt,DEF,England
+Blackburn Rovers,Yuri Ribeiro,DEF,Portugal
+Blackburn Rovers,Scott Wharton,DEF,England
+
+Blackburn Rovers,Moussa Baradji,MID,France
+Blackburn Rovers,Todd Cantwell,MID,England
+Blackburn Rovers,Dion De Neve,MID,Belgium
+Blackburn Rovers,Nathan Dlamini,MID,England
+Blackburn Rovers,Adam Forshaw,MID,England
+Blackburn Rovers,Axel Henriksson,MID,Sweden
+Blackburn Rovers,Kristi Montgomery,MID,Scotland
+Blackburn Rovers,Ryoya Morishita,MID,Japan
+Blackburn Rovers,Lorenze Mullarkey-Matthews,MID,England
+Blackburn Rovers,Sidnei Tavares,MID,Cape Verde
+Blackburn Rovers,Sondre Tronstad,MID,Norway
+
+Blackburn Rovers,Aodhan Doherty,FWD,Northern Ireland
+Blackburn Rovers,Andri Gudjohnsen,FWD,Iceland
+Blackburn Rovers,Makhtar Gueye,FWD,Senegal
+Blackburn Rovers,Ryan Hedges,FWD,Wales
+Blackburn Rovers,Augustus Kargbo,FWD,Sierra Leone
+Blackburn Rovers,Yuki Ohashi,FWD,Japan
+Blackburn Rovers,Igor Tyjon,FWD,England
+
+Sheffield United,Michael Cooper,GK,England
+Sheffield United,Adam Davies,GK,Wales
+Sheffield United,Luke Faxon,GK,England
+
+Sheffield United,Tyler Bindon,DEF,New Zealand
+Sheffield United,Harrison Burrows,DEF,England
+Sheffield United,Sam Curtis,DEF,Ireland
+Sheffield United,Ben Godfrey,DEF,England
+Sheffield United,Sam McCallum,DEF,England
+Sheffield United,Mark McGuiness,DEF,Ireland
+Sheffield United,Ben Mee,DEF,England
+Sheffield United,Jairo Riedewald,DEF,Netherlands
+Sheffield United,Dovydas Sasnauskas,DEF,Lithuania
+Sheffield United,Femi Seriki,DEF,England
+Sheffield United,Jamie Shackleton,DEF,England
+Sheffield United,Japhet Tanganga,DEF,England
+Sheffield United,Ehije Ukaki,DEF,Nigeria
+Sheffield United,Nils Zatterstrom,DEF,Sweden
+
+Sheffield United,Ollie Arblaster,MID,England
+Sheffield United,Andre Brooks,MID,England
+Sheffield United,Tom Davies,MID,England
+Sheffield United,Gustavo Hamer,MID,Netherlands
+Sheffield United,Owen Hampson,MID,Wales
+Sheffield United,Callum O'Hare,MID,England
+Sheffield United,Sydie Peck,MID,England
+Sheffield United,Djibril Soumaré,MID,Senegal
+
+Sheffield United,Patrick Bamford,FWD,England
+Sheffield United,Louie Barry,FWD,England
+Sheffield United,Tyrese Campbell,FWD,England
+Sheffield United,Thomas Cannon,FWD,Ireland
+Sheffield United,Tahith Chong,FWD,Curacao
+Sheffield United,Danny Ings,FWD,England
+Sheffield United,Louie Marsh,FWD,England
+Sheffield United,Alex Matos,FWD,England
+Sheffield United,Christian Nwachukwu,FWD,Nigeria
+Sheffield United,Chiedozie Ogbene,FWD,Ireland
+Sheffield United,Ryan One,FWD,Scotland
+
+Oxford United,Jamie Cumming,GK,England
+Oxford United,Simon Eastwood,GK,England
+Oxford United,Matt Ingram,GK,England
+Oxford United,Jacob Knightbridge,GK,England
+
+Oxford United,Ciaron Brown,DEF,Northern Ireland
+Oxford United,Jack Currie,DEF,England
+Oxford United,Ben Davies,DEF,England
+Oxford United,Michael Helik,DEF,Poland
+Oxford United,Aaron Lacey,DEF,England
+Oxford United,Greg Leigh,DEF,Jamaica
+Oxford United,Sam Long,DEF,England
+Oxford United,Richard Mcintryre,DEF,England
+Oxford United,Brodie Spencer,DEF,Northern Ireland
+Oxford United,Will Vaulks,DEF,Wales
+Oxford United,Hidde ter Avest,DEF,Netherlands
+
+Oxford United,Cameron Brannagan,MID,England
+Oxford United,Brian De Keersmaecker,MID,Belgium
+Oxford United,Siriki Dembele,MID,Scotland
+Oxford United,Tyler Goodrham,MID,Ireland
+Oxford United,Luke Harris,MID,Wales
+Oxford United,Josh Johnson,MID,England
+Oxford United,Joshua Johnson,MID,England
+Oxford United,Filip Krastev,MID,Bulgaria
+Oxford United,Stanley Mills,MID,England
+Oxford United,Louie Sibley,MID,England
+
+Oxford United,Tom Bradshaw,FWD,Wales
+Oxford United,Louis Griffiths,FWD,Wales
+Oxford United,Mark Harris,FWD,Wales
+Oxford United,Will Lankshear,FWD,England
+Oxford United,Gatlin O'Donkor,FWD,England
+Oxford United,Matt Phillips,FWD,Scotland
+Oxford United,Przemysław Płacheta,FWD,Poland
+Oxford United,Nik Prelec,FWD,Slovenia
+Oxford United,Leo Snowden,FWD,England
+Oxford United,Ole ter Haar Romeny,FWD,Indonesia
+
+
+Portsmouth,Jordan Archer,GK,Scotland
+Portsmouth,Josef Bursik,GK,England
+Portsmouth,Ben Killip,GK,England
+Portsmouth,Nicolas Schmid,GK,Austria
+
+Portsmouth,Michael Ani,DEF,England
+Portsmouth,Ibane Bowat,DEF,Scotland
+Portsmouth,Jacob Farell,DEF,Australia
+Portsmouth,Josh Knight,DEF,England
+Portsmouth,Hayden Matthews,DEF,Australia
+Portsmouth,Connor Ogilvie,DEF,England
+Portsmouth,Reegan Poole,DEF,Wales
+Portsmouth,Conor Shaughnessy,DEF,Ireland
+Portsmouth,Zak Swanson,DEF,England
+Portsmouth,Jordan Williams,DEF,England
+
+Portsmouth,Terry Devlin,MID,England
+Portsmouth,Andre Dozzell,MID,England
+Portsmouth,Mark Kosznovszky,MID,Hungary
+Portsmouth,Luke Le Roux,MID,South Africa
+Portsmouth,Marlon Pack,MID,England
+Portsmouth,Adrian Segečić,MID,Australia
+Portsmouth,John Swift,MID,England
+Portsmouth,Fraser Thomas,MID,England
+
+Portsmouth,Florian Bianchini,FWD,France
+Portsmouth,Colby Bishop,FWD,England
+Portsmouth,Harvey Blair,FWD,England
+Portsmouth,Conor Chaplin,FWD,England
+Portsmouth,Nathaniel Chioma,FWD,England
+Portsmouth,Makenzie Kirk,FWD,England
+Portsmouth,Callum Lang,FWD,England
+Portsmouth,Josh Murphy,FWD,England
+Portsmouth,Olutayo Singerr,FWD,England
+Portsmouth,Franco Umeh,FWD,Ireland
+Portsmouth,Thomas Waddingham,FWD,Australia
+Portsmouth,Min-Hyuk Yang,FWD,South Korea
+
+Norwich City,Caleb Ansen,GK,England
+Norwich City,Daniel Grimshaw,GK,England
+Norwich City,Vladan Kovačević,GK,Bosnia & Herzegovina
+Norwich City,Louie Moulden,GK,England
+
+Norwich City,Theodore Adelusi,DEF,England
+Norwich City,Benjamin Chrisene,DEF,England
+Norwich City,Jose Cordoba,DEF,Panama
+Norwich City,Harry Darling,DEF,England
+Norwich City,Lucien Mahovo,DEF,England
+Norwich City,Ruairi McConville,DEF,Northern Ireland
+Norwich City,Jack Stacey,DEF,England
+Norwich City,Jakov Medić,DEF,Croatia
+
+Norwich City,Finn Corke,MID,England
+Norwich City,Uriah Djedje,MID,England
+Norwich City,Kellen Fisher,MID,England
+Norwich City,Amankwah,MID,Ghana
+Norwich City,Liam Gibbs,MID,England
+Norwich City,Matej Jurasek,MID,Czechia
+Norwich City,Emiliano Marcondes,MID,Denmark
+Norwich City,Pelle Mattson,MID,Denmark
+Norwich City,Kenny McLean,MID,Scotland
+Norwich City,Jeffrey Schlupp,MID,Ghana
+Norwich City,Anis Slimane,MID,Tunisia
+Norwich City,Mirko Topić,MID,Serbia
+Norwich City,Jacob Wrights,MID,England
+
+Norwich City,Papa Amadou Diallo,FWD,Senegal
+Norwich City,Dylan Jones,FWD,England
+Norwich City,Matthias Kvistgaarden,FWD,Denmark
+Norwich City,Jovon Makama,FWD,England
+Norwich City,Errol Mundle Smith,FWD,England
+Norwich City,Joshua Sargent,FWD,USA
+Norwich City,Oscar Schwartau,FWD,Denmark
+Norwich City,Tony Springett,FWD,Ireland
+Norwich City,Ante Crnac,FWD,Croatia
+
+Sheffield Wednesday,Ethan Horvath,GK,USA
+Sheffield Wednesday,Pierce Charles,GK,Northern Ireland
+Sheffield Wednesday,Logan Stretch,GK,England
+
+Sheffield Wednesday,Di'Shon Bernard,DEF,England
+Sheffield Wednesday,Gabriel Otegbayo,DEF,Scotland
+Sheffield Wednesday,Dominic Iorfa,DEF,England
+Sheffield Wednesday,Liam Cooper,DEF,Scotland
+Sheffield Wednesday,Harry Amass,DEF,England
+Sheffield Wednesday,Max Lowe,DEF,England
+Sheffield Wednesday,Reece Johnson,DEF,England
+Sheffield Wednesday,Yan Valery,DEF,Tunisia
+Sheffield Wednesday,Sean Fusire,DEF,England
+Sheffield Wednesday,Liam Palmer,DEF,Scotland
+Sheffield Wednesday,Guilherme Siqueira,DEF,Brazil
+
+Sheffield Wednesday,Nathaniel Chalobah,MID,England
+Sheffield Wednesday,Jarvis Thornton,MID,England
+Sheffield Wednesday,Svante Ingelsson,MID,Sweden
+Sheffield Wednesday,Barry Bannan,MID,Scotland
+Sheffield Wednesday,Rio Shipston,MID,England
+
+Sheffield Wednesday,Olaf Kobacki,FWD,Poland
+Sheffield Wednesday,Nathan Redmond,FWD,England
+Sheffield Wednesday,Iké Ugbo,FWD,Canada
+Sheffield Wednesday,Jamal Lowe,FWD,Jamaica
+Sheffield Wednesday,Bailey Cadamarteri,FWD,England
+Sheffield Wednesday,Charlie McNeill,FWD,England

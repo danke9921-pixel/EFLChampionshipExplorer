@@ -1,27 +1,25 @@
 team_name,played,won,drawn,lost,goals_for,goals_against,goal_difference,points
-
-Coventry City,22,14,6,2,53,23,30,48
-Middlesbrough,22,12,6,4,33,24,9,42
-Ipswich Town,22,10,7,5,38,23,15,37
-Hull City,22,11,4,7,37,35,2,37
-Preston North End,22,9,9,4,30,23,7,36
-Millwall,22,10,5,7,25,31,-6,35
-Queens Park Rangers,22,10,4,8,32,34,-2,34
-Stoke City,22,10,3,9,28,21,7,33
-Bristol City,22,9,6,7,30,24,6,33
-Watford,22,8,8,6,31,28,3,32
-Southampton,22,8,7,7,36,31,5,31
-Derby County,22,8,7,7,31,30,1,31
-Leicester City,22,8,7,7,31,31,0,31
-Birmingham City,22,8,5,9,30,29,1,29
-Wrexham,22,6,10,6,27,27,0,28
-West Bromwich Albion,22,8,4,10,25,29,-4,28
-Charlton Athletic,21,7,6,8,21,26,-5,27
-Sheffield United,22,8,2,12,28,31,-3,26
-Swansea City,22,7,5,10,24,30,-6,26
-Blackburn Rovers,21,7,4,10,22,26,-4,25
-Portsmouth,21,5,6,10,18,28,-10,21
-Oxford United,22,4,7,11,22,31,-9,19
-Norwich City,22,4,6,12,25,35,-10,18
-Sheffield Wednesday,21,1,6,14,16,43,-27,-9
-
+Coventry City,23,15,2,6,54,23,31,51
+Middlesbrough,23,12,4,7,33,24,9,43
+Hull City,23,11,7,5,39,37,2,38
+Ipswich Town,23,10,5,8,38,23,15,38
+Preston North End,23,9,4,10,30,23,7,37
+Bristol City,23,10,7,6,32,25,7,36
+Millwall,23,10,7,6,25,31,-6,36
+Watford,23,9,6,8,33,29,4,35
+Queens Park Rangers,23,10,8,5,33,35,-2,35
+Stoke City,23,10,9,4,28,21,7,34
+Derby County,23,8,7,8,32,31,1,32
+Southampton,23,8,8,7,37,33,4,31
+Leicester City,23,8,8,7,32,33,-1,31
+Birmingham City,23,8,9,6,31,30,1,30
+Wrexham,22,6,6,10,27,27,0,28
+West Bromwich Albion,23,8,11,4,26,31,-5,28
+Charlton Athletic,22,7,9,6,21,27,-6,27
+Sheffield United,22,8,12,2,28,31,-3,26
+Blackburn Rovers,22,7,10,5,22,26,-4,26
+Swansea City,23,7,11,5,24,31,-7,26
+Oxford United,23,5,11,7,24,32,-8,22
+Portsmouth,22,5,10,7,19,29,-10,22
+Norwich City,23,5,12,6,26,35,-9,21
+Sheffield Wednesday,22,1,14,7,18,45,-27,-8

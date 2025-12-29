@@ -1,17 +1,15 @@
 # Author: Đani Čolaković
-# main.py
-# Streamlit interface for login, registration, and admin controls
+# app.py
+# Streamlit interface for login, registration, and page switching
 
 import streamlit as st
-from Login import authenticate, register_user   # removed create_admin_account
-from admin_page import admin_page
-# from league_table import league_table_page   # removed — handled automatically via pages/
+from Login import authenticate, register_user   # backend login functions
 
 def main():
     st.title("EFL Championship Explorer")
 
-    # sidebar menu
-    menu = ["Login", "Register", "Admin"]
+    # Sidebar navigation
+    menu = ["Login", "Register", "Admin", "Analytics", "League Table", "Matchday Results", "Top Goalscorers"]
     choice = st.sidebar.selectbox("Menu", menu)
 
     # LOGIN PAGE
@@ -58,9 +56,26 @@ def main():
     # ADMIN PAGE
     elif choice == "Admin":
         if "role" in st.session_state and st.session_state["role"] == "admin":
-            admin_page()
+            st.switch_page("pages/admin_page.py")
         else:
             st.error("You do not have permission to access the admin dashboard.")
+
+    # ANALYTICS PAGE
+    elif choice == "Analytics":
+        st.switch_page("pages/analytics.py")
+
+    # LEAGUE TABLE PAGE
+    elif choice == "League Table":
+        st.switch_page("pages/league_table.py")
+
+    # MATCHDAY RESULTS PAGE
+    elif choice == "Matchday Results":
+        st.switch_page("pages/Matchday_Results.py")
+
+    # TOP GOALSCORERS PAGE
+    elif choice == "Top Goalscorers":
+        st.switch_page("pages/Top_Goalscorers.py")
+
 
 if __name__ == "__main__":
     main()

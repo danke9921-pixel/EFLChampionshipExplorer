@@ -1,14 +1,17 @@
+# Author: Đani Čolaković
+# Script for importing player data from CSV into the SQLite Database 
 import sqlite3
 import csv
 import os
 
-# Path to my database
+# Path to the SQLite Database 
 DB_PATH = os.path.join(os.path.dirname(__file__), "..", "Championship.db")
 
-# Path to my players CSV
+# Path to the CSV file containing EFL Championshipplayer data
 CSV_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "team_players.csv")
 
-
+# Opens a connection to the database. 
+# Returns the connection object or exists on failure.
 def connect_db():
     try:
         return sqlite3.connect(DB_PATH)
@@ -16,7 +19,7 @@ def connect_db():
         print(f"Database connection error: {e}")
         exit(1)
 
-
+# Validates a single CSV row to ensure it contains the correct number of fields and valid player data.
 def validate_row(row):
     if len(row) != 4:
         return False
@@ -34,7 +37,7 @@ def validate_row(row):
 
     return True
 
-
+# Imports players from the CSV file into the Players Table
 def import_players():
     conn = connect_db()
     cursor = conn.cursor()

@@ -1,23 +1,24 @@
+# Author: Đani Čolaković
 import streamlit as st
 import pandas as pd
 import sqlite3
-
+# Page setup 
 st.set_page_config(page_title="League Table", layout="wide")
 st.title("League Table")
 
-# Connect to DB
+# Load league table data from the database
 conn = sqlite3.connect("Championship.db")
 df = pd.read_sql_query("SELECT * FROM league_table", conn)
 conn.close()
 
-# Sort by points, then goal difference
+# Sort teams by points first, then goal difference
 df = df.sort_values(by=["points", "goal_difference"], ascending=False)
 
-# Display table
+# Display the EFL Championship standings
 st.markdown("### 📊 Current Standings")
 st.dataframe(df, use_container_width=True)
 
-# Academic summary
+# Analytical summary section
 st.markdown("""
 ### 📘 Analytical Commentary
 

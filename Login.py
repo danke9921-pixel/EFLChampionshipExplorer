@@ -1,16 +1,20 @@
 # Author: Đani Čolaković
-# Login + registration system with bcrypt hashing
+# Login.py 
+# Handles user authenticatio and registration using bcrypt hashing 
 
 import sys
 from pathlib import Path
+# Add project root to Python path so imports work correctly
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 
 import re
 import bcrypt
 from database.connect import get_db_connection
 
-
+# Password Validation
 def is_valid_password(password: str) -> bool:
+
+    # Checks if the password meets basic security requirements
     if len(password) < 8:
         return False
     if not re.search(r"[A-Z]", password):
@@ -23,15 +27,16 @@ def is_valid_password(password: str) -> bool:
         return False
     return True
 
-
+# Password Hashing and Verification 
 def hash_password(password: str) -> bytes:
+    # This hashes a password using bcrypt
     return bcrypt.hashpw(password.encode("utf-8"), bcrypt.gensalt())
 
 
 def verify_password(password: str, hashed: bytes) -> bool:
     return bcrypt.checkpw(password.encode("utf-8"), hashed)
 
-
+# User Authentication 
 def authenticate(username, password):
     connection = get_db_connection()
     cursor = connection.cursor()
@@ -44,21 +49,23 @@ def authenticate(username, password):
     connection.close()
 
     if user:
+        # Block banned users immediately 
         if user["banned"] == 1:
             return "banned"
 
         stored_hash = user["password"]
+        # Verify password hash 
 
         if verify_password(password, stored_hash):
             return {
                 "username": user["username"],
                 "favourite_team": user["favourite_team"],
-                "role": user["role"]  # REAL role from DB
+                "role": user["role"]  # role from DB
             }
 
     return None
 
-
+# User Registration 
 def register_user(username, password, favourite_team=None):
     connection = get_db_connection()
     cursor = connection.cursor()
@@ -74,7 +81,7 @@ def register_user(username, password, favourite_team=None):
         connection.close()
         return False, "username_exists"
 
-    # Validate password
+    # Validate password strength 
     if not is_valid_password(password):
         connection.close()
         return False, "weak_password"
@@ -85,7 +92,7 @@ def register_user(username, password, favourite_team=None):
     cursor.execute("SELECT COUNT(*) AS count FROM users WHERE role = 'admin'")
     admin_exists = cursor.fetchone()["count"] > 0
 
-    # First ever user becomes admin
+    # First registered user becomes admin
     role = "admin" if not admin_exists else "user"
 
     cursor.execute(

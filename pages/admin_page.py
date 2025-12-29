@@ -1,3 +1,4 @@
+# Author: Đani Čolaković
 import streamlit as st
 import sqlite3
 import os
@@ -22,6 +23,7 @@ def get_all_users():
 
 # Delete a user from the database
 def delete_user(user_id):
+# Permanently removes a user from the database.
     try:
         conn = sqlite3.connect(get_db())
         cur = conn.cursor()
@@ -68,11 +70,11 @@ def unban_user(user_id):
     finally:
         conn.close()
 
-# 🔥 MAIN PAGE EXECUTION (no function)
+# Main Page Execution 
 st.set_page_config(page_title="Admin Dashboard", layout="wide")
 st.title("Admin Dashboard")
 
-# Only admins can access this page
+# Only admin can access this page
 if "role" not in st.session_state or st.session_state["role"] != "admin":
     st.error("Access denied.")
     st.stop()

@@ -1,22 +1,23 @@
+# Author: Đani Čolaković
 import sqlite3
 import pandas as pd
 import os
 
-# Load CSV
+# Path to the CSV file containing the league table data
 CSV_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "Teams.csv")
 
-# Connect to DB
+# Path to the SQlite Database
 DB_PATH = os.path.join(os.path.dirname(__file__), "..", "Championship.db")
-
+# Load the CSV into a DataFrame
 df = pd.read_csv(CSV_PATH)
 
 conn = sqlite3.connect(DB_PATH)
 cur = conn.cursor()
 
-# Clear old data
+# Remove old league table data before inserting new rows 
 cur.execute("DELETE FROM league_table")
 
-# Insert rows
+# Insert each row from the CSV into the database 
 for _, row in df.iterrows():
     cur.execute("""
         INSERT INTO league_table 
@@ -33,7 +34,7 @@ for _, row in df.iterrows():
         row["goal_difference"],
         row["points"]
     ))
-
+# Save changes and close the connection 
 conn.commit()
 conn.close()
 

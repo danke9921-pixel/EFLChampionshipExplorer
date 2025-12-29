@@ -1,3 +1,4 @@
+# Author: Đani Čolaković
 import sqlite3
 import os
 
@@ -7,7 +8,7 @@ DB_PATH = os.path.join(os.path.dirname(__file__), "..", "Championship.db")
 connection = sqlite3.connect(DB_PATH)
 cursor = connection.cursor()
 
-# USERS TABLE
+# This creates the User table 
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS users (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -19,7 +20,7 @@ CREATE TABLE IF NOT EXISTS users (
 )
 """)
 
-# LEAGUE TABLE
+# Create table for storing league standings
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS league_table (
     id INTEGER PRIMARY KEY AUTOINCREMENT,

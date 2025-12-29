@@ -1,18 +1,20 @@
+# Author: Đani Čolaković
 import sqlite3
 import csv
 import os
 
-# Path to my SQLite Database
+# Path to the SQLite Database
 DB_PATH = os.path.join(os.path.dirname(__file__), "..", "Championship.db")
 
-# Path that matches my Matches CSV
+# Path to the CSV file containing match data
 CSV_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "Matches.csv")
 
+# This imports match fixtures from the CSV file into the matches table in the database
 def import_matches():
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
 
-    # Created matches table so that it can store match fixture data 
+    # Created matches table if it doesn't exist 
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS matches (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -25,7 +27,7 @@ def import_matches():
         )
     """)
 
-    # Cleared out old data before importing new data 
+    # Cleared old data before importing new match fixtures 
     cursor.execute("DELETE FROM matches")
 
     # Inserted new EFL Championship match fixture data

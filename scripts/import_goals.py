@@ -1,11 +1,12 @@
+# Author: Đani Čolaković
 import sqlite3
 import csv
 import os
 
-# Path to my database
+# Path to the SQLite database
 DB_PATH = os.path.join(os.path.dirname(__file__), "..", "Championship.db")
 
-# Path to my goals CSV
+# Path to the CSV file containing goal data
 CSV_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "Goals.csv")
 
 def import_goals():
@@ -25,10 +26,10 @@ def import_goals():
         )
     """)
 
-    # Cleared old data
+    # Cleared old data before inserting new rows
     cursor.execute("DELETE FROM goals")
 
-    # Inserted new goals data
+    # Insert goal events from the CSV file
     with open(CSV_PATH, newline='', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:

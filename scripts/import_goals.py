@@ -1,11 +1,12 @@
 import sqlite3
 import csv
+import os
 
 # Path to my database
-DB_PATH = "Championship.db"
+DB_PATH = os.path.join(os.path.dirname(__file__), "..", "Championship.db")
 
 # Path to my goals CSV
-CSV_PATH = "data/Goals.csv"
+CSV_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "Goals.csv")
 
 def import_goals():
     conn = sqlite3.connect(DB_PATH)

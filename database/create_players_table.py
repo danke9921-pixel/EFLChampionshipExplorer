@@ -1,6 +1,7 @@
 import sqlite3
+import os
 
-DB_PATH = "Championship.db"
+DB_PATH = os.path.join(os.path.dirname(__file__), "..", "Championship.db")
 
 def create_players_table():
     try:

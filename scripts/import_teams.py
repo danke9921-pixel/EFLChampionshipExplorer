@@ -1,11 +1,16 @@
 import sqlite3
 import pandas as pd
+import os
 
 # Load CSV
-df = pd.read_csv("data/Teams.csv")
+CSV_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "Teams.csv")
 
 # Connect to DB
-conn = sqlite3.connect("Championship.db")
+DB_PATH = os.path.join(os.path.dirname(__file__), "..", "Championship.db")
+
+df = pd.read_csv(CSV_PATH)
+
+conn = sqlite3.connect(DB_PATH)
 cur = conn.cursor()
 
 # Clear old data

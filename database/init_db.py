@@ -1,6 +1,10 @@
 import sqlite3
+import os
 
-connection = sqlite3.connect("Championship.db")
+# Correct path to database (root folder)
+DB_PATH = os.path.join(os.path.dirname(__file__), "..", "Championship.db")
+
+connection = sqlite3.connect(DB_PATH)
 cursor = connection.cursor()
 
 # USERS TABLE
@@ -15,7 +19,7 @@ CREATE TABLE IF NOT EXISTS users (
 )
 """)
 
-# LEAGUE TABLE (example structure — adjust if yours is different)
+# LEAGUE TABLE
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS league_table (
     id INTEGER PRIMARY KEY AUTOINCREMENT,

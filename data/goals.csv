@@ -15,26 +15,26 @@ match_id,team,player,minute,type
 
 4,Portsmouth,Adrian Segečić,38,normal
 
-5,QPR,Benjamin Whiteman,0,own_goal
-5,Preston,Milutin Osmajić,48,normal
+5,Queens Park Rangers,Benjamin Whiteman,0,own_goal
+5,Preston North End,Milutin Osmajić,48,normal
 
 6,Derby County,Carlton Morris,60,normal
 6,Stoke City,Lewis Baker,70,normal
 6,Stoke City,Divin Mubama,95,normal
 6,Stoke City,Sorba Thomas,99,normal
 
-7,West Brom,Issac Price,15,normal
+7,West Bromwich Albion,Issac Price,15,normal
 
 8,Middlesbrough,Dael Fry,51,normal
 
-9,Charlton,Harvey Knibbs,94,normal
+9,Charlton Athletic,Harvey Knibbs,94,normal
 
 11,Wrexham,Josh Windass,22,penalty
 11,Southampton,Ryan Manning,90,normal
 11,Southampton,Jack Stephens,96,normal
 
 12,Birmingham City,Jay Stansfield,55,normal
-12,Ipswich,George Hirst,95,penalty
+12,Ipswich Town,George Hirst,95,penalty
 
 
 13,Hull City,Joe Gelhardt,2,normal
@@ -43,10 +43,10 @@ match_id,team,player,minute,type
 13,Oxford United,Cameron Brannagan,26,normal
 13,Hull City,Oliver McBurnie,93,normal
 
-14,Ipswich,Taylor Harwood-Bellis,4,own_goal
+14,Ipswich Town,Taylor Harwood-Bellis,4,own_goal
 14,Southampton,Jay Robinson,29,normal
 
-15,Blackburn,Todd Cantwell,50,normal
+15,Blackburn Rovers,Todd Cantwell,50,normal
 15,Birmingham City,Jay Stansfield,90,penalty
 15,Birmingham City,Lyndon Dykes,98,normal
 
@@ -54,9 +54,9 @@ match_id,team,player,minute,type
 16,Middlesbrough,Alfie Jones,87,normal
 16,Middlesbrough,Delano Burgzorg,97,normal
 
-17,Preston,Alfie Devine,7,normal
+17,Preston North End,Alfie Devine,7,normal
+17,Preston North End,Milutin Osmajić,85,normal
 17,Leicester City,Jeremy Monga,67,normal
-17,Preston,Milutin Osmajić,85,normal
 
 18,Stoke City,Million Manhoef,1,normal
 18,Stoke City,Divin Mubama,46,normal
@@ -64,27 +64,27 @@ match_id,team,player,minute,type
 
 19,Watford,Luca Kjerrumgaard,19,normal
 19,Watford,Luca Kjerrumgaard,23,normal
-19,QPR,Kieran Morgan,49,normal
+19,Queens Park Rangers,Kieran Morgan,49,normal
 
 20,Swansea,Ronald,66,normal
 
 21,Derby County,Callum Elder,12,normal
-21,Coventry,Bobby Thomas,7,normal
-21,Coventry,Haji Wright,25,normal
+21,Coventry City,Bobby Thomas,7,normal
+21,Coventry City,Haji Wright,25,normal
 21,Derby County,Carlton Morris,47,penalty
 21,Derby County,Ebou Adams,50,normal
-21,Coventry,Thomas Asante,72,normal
-21,Coventry,Mason Clark,75,normal
-21,Coventry,Victor Torp,79,normal
+21,Coventry City,Thomas Asante,72,normal
+21,Coventry City,Mason Clark,75,normal
+21,Coventry City,Victor Torp,79,normal
 
-22,Norwich,Harry Darling,6,normal
-22,Norwich,Joshua Sargent,14,normal
+22,Norwich City,Harry Darling,6,normal
+22,Norwich City,Joshua Sargent,14,normal
 22,Portsmouth,Adrian Segečić,84,normal
 
 23,Wrexham,Lewis O'Brien,42,normal
-23,West Brom,Issac Price,20,normal
-23,West Brom,Jed Wallace,74,normal
-23,West Brom,Issac Price,81,normal
+23,West Bromwich Albion,Issac Price,20,normal
+23,West Bromwich Albion,Jed Wallace,74,normal
+23,West Bromwich Albion,Issac Price,81,normal
 23,Wrexham,Sam Smith,95,normal
 
 25,Birmingham City,Seung-Ho Paik,40,normal
@@ -96,13 +96,13 @@ match_id,team,player,minute,type
 26,Coventry City,Jack Rudoni,43,normal
 26,Coventry City,Victor Torp,47,normal
 26,Coventry City,Victor Torp,66,normal
-26,QPR,Richard Kone,91,normal
+26,Queens Park Rangers,Richard Kone,91,normal
 
 27,Middlesbrough,Finn Azaz,43,normal
 27,Middlesbrough,Tommy Conway,45,normal
 27,Norwich City,Joshua Sargent,85,normal
 
-28,Preston,Milutin Osmajić,11,penalty
+28,Preston North End,Milutin Osmajić,11,penalty
 
 29,Millwall,Luke Cundle,38,normal
 
@@ -110,7 +110,7 @@ match_id,team,player,minute,type
 30,Stoke City,Sorba Thomas,76,normal
 30,Southampton,Taylor Harwood-Bellis,79,normal
 
-31,West Brom,Mikey Johnston,26,normal
+31,West Bromwich Albion,Mikey Johnston,26,normal
 31,Portsmouth,Colby Bishop,56,normal
 
 32,Wrexham,Kieffer Moore,15,normal
@@ -120,12 +120,12 @@ match_id,team,player,minute,type
 
 33,Leicester City,Issahaku Fatawu,48,normal
 
-34,Blackburn,Ryan Hedges,18,normal
-34,Blackburn,Yuki Ohashi,47,normal
-34,Blackburn,Todd Cantwell,50,normal
+34,Blackburn Rovers,Ryan Hedges,18,normal
+34,Blackburn Rovers,Yuki Ohashi,47,normal
+34,Blackburn Rovers,Todd Cantwell,50,normal
 
 35,Watford,Nestory Irankunda,35,normal
-35,Swansea,Zan Vipotnik,82,normal
+35,Swansea City,Zan Vipotnik,82,normal
 
 36,Bristol City,Scott Twine,35,normal
 36,Derby County,Carlton Morris,86,normal
@@ -140,10 +140,10 @@ match_id,team,player,minute,type
 38,Bristol City,Max Bird,78,normal
 38,Hull City,Kyle Joseph,93,normal
 
-39,Ipswich,Jacob Greaves,33,normal
+39,Ipswich Town,Jacob Greaves,33,normal
 39,Derby County,Carlton Morris,50,penalty
 39,Derby County,Rhian Brewster,70,normal
-39,Ipswich,Jack Clarke,106,penalty
+39,Ipswich Town,Jack Clarke,106,penalty
 
 40,Coventry City,Haji Wright,12,normal
 40,Oxford United,Will Lankshear,19,normal
@@ -165,12 +165,12 @@ match_id,team,player,minute,type
 
 45,Middlesbrough,Tommy Conway,64,normal
 
-46,QPR,Paul Smyth,8,normal
-46,Charlton,Robert Apter,54,normal
-46,QPR,Koki Saito,84,normal
-46,QPR,Richard Kone,97,normal
+46,Queens Park Rangers,Paul Smyth,8,normal
+46,Charlton Athletic,Robert Apter,54,normal
+46,Queens Park Rangers,Koki Saito,84,normal
+46,Queens Park Rangers,Richard Kone,97,normal
 
-47,West Brom,Nathaniel Phillips,14,normal
+47,West Bromwich Albion,Nathaniel Phillips,14,normal
 
 48,Leicester City,Issahaku Fatawu,8,normal
 48,Leicester City,Ricardo Pereira,88,normal
@@ -184,7 +184,7 @@ match_id,team,player,minute,type
 
 52,Stoke City,Bosun Lawal,21,normal
 
-53,Blackburn,Ryoya Morishita,47,normal
+53,Blackburn Rovers,Ryoya Morishita,47,normal
 
 54,Derby County,Andreas Weimann,84,normal
 
@@ -193,12 +193,12 @@ match_id,team,player,minute,type
 55,Swansea City,Ronald,57,normal
 55,Hull City,John Egan,97,normal
 
-56,QPR,Conor Coady,33,own_goal
-56,QPR,Richard Kone,44,normal
-56,QPR,Rumarn Burrell,75,normal
+56,Queens Park Rangers,Conor Coady,33,own_goal
+56,Queens Park Rangers,Richard Kone,44,normal
+56,Queens Park Rangers,Rumarn Burrell,75,normal
 56,Wrexham,Kieffer Moore,67,normal
 
-57,Charlton,Sonny Carey,40,normal
+57,Charlton Athletic,Sonny Carey,40,normal
 57,Millwall,Raees Bangura-Williams,88,normal
 
 58,Oxford United,Will Lankshear,9,normal
@@ -206,16 +206,16 @@ match_id,team,player,minute,type
 58,Oxford United,Boubakary Soumare,44,own_goal
 58,Leicester City,Ricardo Pereira,55,normal
 
-59,Preston,Lewis Dobbin,22,normal
+59,Preston North End,Lewis Dobbin,22,normal
 59,Middlesbrough,Matt Targett,72,normal
-59,Preston,Jordan Storey,88,normal
+59,Preston North End,Jordan Storey,88,normal
 59,Middlesbrough,Sontje Hansen,92,normal
 
-60,Ipswich,Jaden Philogene,20,normal
-60,Ipswich,Jaden Philogene,51,normal
-60,Ipswich,George Hirst,61,normal
-60,Ipswich,Jaden Philogene,68,normal
-60,Ipswich,Jack Clarke,78,normal
+60,Ipswich Town,Jaden Philogene,20,normal
+60,Ipswich Town,Jaden Philogene,51,normal
+60,Ipswich Town,George Hirst,61,normal
+60,Ipswich Town,Jaden Philogene,68,normal
+60,Ipswich Town,Jack Clarke,78,normal
 
 61,Millwall,Camiel Neghli,10,normal
 
@@ -223,7 +223,7 @@ match_id,team,player,minute,type
 62,Oxford United,Przemyslaw Placheta,48,normal
 62,Bristol City,Anis Mehmeti,53,normal
 
-63,Preston,Alfie Devine,29,normal
+63,Preston North End,Alfie Devine,29,normal
 
 64,Hull City,Kyle Joseph,22,normal
 64,Hull City,John Lundstram,59,normal
@@ -233,7 +233,7 @@ match_id,team,player,minute,type
 65,Sheffield Wednesday,Barry Bannan,12,normal
 65,Sheffield Wednesday,George Brown,50,normal
 
-66,Charlton,Tanto Olaofe,90,normal
+66,Charlton Athletic,Tanto Olaofe,90,normal
 
 67,Norwich City,Jack Stacey,39,normal
 67,Wrexham,Josh Windass,47,normal
@@ -241,29 +241,29 @@ match_id,team,player,minute,type
 67,Wrexham,Josh Windass,59,normal
 67,Norwich City,Jovon Makama,92,normal
 
-69,QPR,Harvey Vale,75,normal
+69,Queens Park Rangers,Harvey Vale,75,normal
 
 70,Birmingham City,Lyndon Dykes,94,normal
 
 71,Middlesbrough,David Strelec,26,normal
 71,Middlesbrough,Mamadou Kaly Sene,61,normal
-71,West Brom,Aune Heggebo,90,normal
+71,West Bromwich Albion,Aune Heggebo,90,normal
 
-72,Blackburn,Andri Gudjohnsen,76,normal
-72,Ipswich,Sindre Walle Egeli,94,normal
+72,Blackburn Rovers,Andri Gudjohnsen,76,normal
+72,Ipswich Town,Sindre Walle Egeli,94,normal
 
-73,Charlton,Macaulay Gillesphey,31,normal
-73,Charlton,Sonny Carey,78,normal
-73,Charlton,James Bree,93,normal
+73,Charlton Athletic,Macaulay Gillesphey,31,normal
+73,Charlton Athletic,Sonny Carey,78,normal
+73,Charlton Athletic,James Bree,93,normal
 
-74,Ipswich,Jaden Philogene,9,normal
-74,Ipswich,George Hirst,41,normal
+74,Ipswich Town,Jaden Philogene,9,normal
+74,Ipswich Town,George Hirst,41,normal
 74,Portsmouth,Marlon Pack,92,normal
 
 75,Sheffield United,Callum O'Hare,65,normal
 
 76,Sheffield Wednesday,Dominic Iorfa,30,normal
-76,QPR,Nicolas Madsen,48,penalty
+76,Queens Park Rangers,Nicolas Madsen,48,penalty
 
 77,Southampton,Adam Armstrong,61,normal
 77,Middlesbrough,Mamadou Kaly Sene,77,normal
@@ -285,7 +285,7 @@ match_id,team,player,minute,type
 82,Wrexham,Lewis O'Brien,59,normal
 82,Derby County,Ben Brereton Diaz,72,normal
 
-83,West Brom,Samuel Illing Junior,10,normal
+83,West Bromwich Albion,Samuel Illing Junior,10,normal
 83,Leicester City,Nathaniel Phillips,93,own_goal
 
 86,Coventry City,Haji Wright,29,normal
@@ -293,14 +293,14 @@ match_id,team,player,minute,type
 86,Coventry City,Ellis Simms,81,normal
 86,Coventry City,Kesler Hayden,87,normal
 
-87,West Brom,Josh Maja,20,normal
+87,West Bromwich Albion,Josh Maja,20,normal
 
 88,Portsmouth,Min-Hyuk Yang,5,normal
 88,Watford,Imran Louza,46,normal
 88,Watford,Rocco Vata,56,normal
-88,Portsmouth,Adrian Segecic,79,normal
+88,Portsmouth,Adrian Segečić,79,normal
 
-89,Charlton,James Bree,37,normal
+89,Charlton Athletic,James Bree,37,normal
 89,Derby County,Matt Clarke,79,normal
 
 90,Birmingham City,Jay Stansfield,9,normal
@@ -309,10 +309,10 @@ match_id,team,player,minute,type
 90,Birmingham City,Demarai Gray,99,normal
 
 91,Bristol City,Robert Atkinson,18,normal
-91,Ipswich,Jack Clarke,52,penalty
+91,Ipswich Town,Jack Clarke,52,penalty
 
-92,Preston,Thierry Small,3,normal
-92,Preston,Michael Smith,10,normal
+92,Preston North End,Thierry Small,3,normal
+92,Preston North End,Michael Smith,10,normal
 92,Hull City,Oliver McBurnie,48,normal
 92,Hull City,Oliver McBurnie,74,normal
 
@@ -320,21 +320,21 @@ match_id,team,player,minute,type
 94,Southampton,Ross Stewart,51,normal
 94,Southampton,Ross Stewart,58,normal
 
-95,Blackburn,Todd Cantwell,28,normal
+95,Blackburn Rovers,Todd Cantwell,28,normal
 95,Swansea City,Goncalo Franco,44,normal
 95,Swansea City,Liam Cullen,67,normal
 
 96,Leicester City,Jordan James,36,normal
 96,Wrexham,Nathan Broadhead,77,normal
 
-97,Ipswich,Cedric Kipre,32,normal
+97,Ipswich Town,Cedric Kipre,32,normal
 97,Norwich City,Oscar Schwartau,35,normal
-97,Ipswich,Jaden Philogene,44,normal
-97,Ipswich,Jack Clarke,77,normal
+97,Ipswich Town,Jaden Philogene,44,normal
+97,Ipswich Town,Jack Clarke,77,normal
 
 98,Bristol City,Emil Riis,32,normal
-98,QPR,Richard Kone,66,normal
-98,QPR,Paul Smyth,84,normal
+98,Queens Park Rangers,Richard Kone,66,normal
+98,Queens Park Rangers,Paul Smyth,84,normal
 
 99,Southampton,Adam Armstrong,7,normal
 99,Derby County,Patrick Agyemang,40,normal
@@ -345,8 +345,8 @@ match_id,team,player,minute,type
 
 101,Portsmouth,Min-Hyuk Yang,23,normal
 
-102,Preston,Thierry Small,67,normal
-102,Preston,Daniel Jebbison,80,normal
+102,Preston North End,Thierry Small,67,normal
+102,Preston North End,Daniel Jebbison,80,normal
 
 103,Oxford United,Max Alleyne,3,own_goal
 103,Watford,Jeremy Ngakia,45,normal
@@ -358,7 +358,7 @@ match_id,team,player,minute,type
 104,Leicester City,Jannik Vestergaard,85,normal
 
 105,Stoke City,Million Manhoef,49,normal
-105,Blackburn,Augustus Kargbo,82,normal
+105,Blackburn Rovers,Augustus Kargbo,82,normal
 
 106,Hull City,Babajide David Akintola,30,normal
 
@@ -380,8 +380,8 @@ match_id,team,player,minute,type
 110,Hull City,Joe Gelhardt,93,normal
 110,Birmingham City,Jay Stansfield,96,penalty
 
-111,Charlton,Sonny Carey,17,normal
-111,Charlton,Reece Burke,46,normal
+111,Charlton Athletic,Sonny Carey,17,normal
+111,Charlton Athletic,Reece Burke,46,normal
 111,Sheffield Wednesday,Jamal Lowe,69,normal
 
 112,Coventry City,Victor Torp,57,normal
@@ -391,9 +391,9 @@ match_id,team,player,minute,type
 
 114,Sheffield United,Callum O'Hare,59,normal
 
-115,West Brom,Mikey Johnston,40,normal
-115,West Brom,Issac Price,62,normal
-115,Preston,Michael Smith,78,normal
+115,West Bromwich Albion,Mikey Johnston,40,normal
+115,West Bromwich Albion,Issac Price,62,normal
+115,Preston North End,Michael Smith,78,normal
 
 116,Stoke City,Sorba Thomas,36,normal
 
@@ -401,19 +401,19 @@ match_id,team,player,minute,type
 
 118,Millwall,Femi Azeez,36,normal
 118,Millwall,Mihailo Ivanović,49,normal
-118,QPR,Rumarn Burrell,85,normal
+118,Queens Park Rangers,Rumarn Burrell,85,normal
 
 120,Middlesbrough,Cedric Kipre,47,own_goal
 120,Middlesbrough,Morgan Whittaker,55,normal
-120,Ipswich,Dara O'Shea,76,normal
+120,Ipswich Town,Dara O'Shea,76,normal
 
 121,Middlesbrough,Morgan Whittaker,6,normal
 
-122,West Brom,Isaac Price,34,normal
+122,West Bromwich Albion,Isaac Price,34,normal
 122,Watford,Imran Louza,38,normal
 122,Watford,Rocco Vata,58,normal
 
-123,QPR,Rumarn Burrell,18,normal
+123,Queens Park Rangers,Rumarn Burrell,18,normal
 
 124,Wrexham,Nathan Broadhead,14,normal
 
@@ -422,7 +422,7 @@ match_id,team,player,minute,type
 125,Bristol City,Scott Twine,57,normal
 125,Bristol City,Scott Twine,64,normal
 
-126,Blackburn,Yuki Ohashi,40,normal
+126,Blackburn Rovers,Yuki Ohashi,40,normal
 126,Sheffield United,Axel Henriksson,54,normal
 126,Sheffield United,Harrison Burrows,70,normal
 126,Sheffield United,Tyrese Campbell,92,normal
@@ -433,9 +433,9 @@ match_id,team,player,minute,type
 128,Hull City,Joe Gelhardt,31,normal
 128,Leicester City,Aaron Ramsey,67,normal
 
-129,Charlton,Sonny Carey,52,normal
-129,Charlton,Macaulay Gillesphey,55,normal
-129,Charlton,Miles Leaburn,64,normal
+129,Charlton Athletic,Sonny Carey,52,normal
+129,Charlton Athletic,Macaulay Gillesphey,55,normal
+129,Charlton Athletic,Miles Leaburn,64,normal
 
 130,Millwall,Femi Azeez,10,normal
 130,Millwall,Tristan Crama,21,normal
@@ -448,15 +448,15 @@ match_id,team,player,minute,type
 
 
 133,Southampton,Leo Scienza,23,normal
-133,Blackburn,Ryan Alebiosu,76,normal
-133,Blackburn,Andri Gudjohnsen,86,normal
+133,Blackburn Rovers,Ryan Alebiosu,76,normal
+133,Blackburn Rovers,Andri Gudjohnsen,86,normal
 
 134,Bristol City,Sinclair Armstrong,42,normal
 
 135,Derby County,Carlton Morris,10,normal
 
 136,Hull City,Joe Gelhardt,46,normal
-136,Charlton,Luke Berry,91,normal
+136,Charlton Athletic,Luke Berry,91,normal
 
 137,Millwall,Femi Azeez,44,normal
 
@@ -476,15 +476,15 @@ match_id,team,player,minute,type
 141,Coventry City,Tatsuhiro Sakamoto,42,normal
 141,Watford,Imran Louza,69,penalty
 
-142,Ipswich,Jack Clarke,83,normal
+142,Ipswich Town,Jack Clarke,83,normal
 
 143,Stoke City,Hayden Matthews,70,own_goal
 
 144,Sheffield United,Andre Brooks,10,normal
 144,Sheffield United,Callum O'Hare,16,normal
-144,Preston,Lewis Dobbin,49,normal
-144,Preston,Japhet Tanganga,46,own_goal
-144,Preston,Daniel Jebbison,58,normal
+144,Preston North End,Lewis Dobbin,49,normal
+144,Preston North End,Japhet Tanganga,46,own_goal
+144,Preston North End,Daniel Jebbison,58,normal
 
 145,Birmingham City,Seung-Ho Paik,9,normal
 145,Birmingham City,Tomoki Iwata,56,normal
@@ -496,19 +496,18 @@ match_id,team,player,minute,type
 146,Millwall,Jake Cooper,66,normal
 146,Oxford United,Przemyslaw Placheta,96,normal
 
-147,Ipswich,George Hirst,2,normal
-147,QPR,Rumarn Burrell,21,normal
-147,Ipswich,Marcelino Nunez,47,normal
-147,Ipswich,George Hirst,57,normal
-147,Ipswich,Marcelino Nunez,64,normal
-
+147,Ipswich Town,George Hirst,2,normal
+147,Queens Park Rangers,Rumarn Burrell,21,normal
+147,Ipswich Town,Marcelino Nunez,47,normal
+147,Ipswich Town,George Hirst,57,normal
+147,Ipswich Town,Marcelino Nunez,64,normal
 148,Derby County,Carlton Morris,24,normal
 148,Derby County,Carlton Morris,46,normal
 148,Derby County,Carlton Morris,63,penalty
 148,Sheffield United,Callum O'Hare,73,normal
 
-149,Preston,Lewis Dobbin,38,normal
-149,Preston,Mads Frokjaer-Jensen,98,normal
+149,Preston North End,Lewis Dobbin,38,normal
+149,Preston North End,Mads Frokjaer-Jensen,98,normal
 
 150,Stoke City,Divin Mubama,4,normal
 150,Stoke City,Divin Mubama,22,normal
@@ -520,12 +519,11 @@ match_id,team,player,minute,type
 151,Watford,Luca Kjerrumgaard,32,normal
 151,Watford,Mamadou Doumbia,49,normal
 
-152,Charlton,Charlie Kelman,46,normal
+152,Charlton Athletic,Charlie Kelman,46,normal
 152,Swansea City,Adam Idah,64,normal
 
-153,Blackburn,Andri Gudjohnsen,20,normal
-153,Blackburn,Andri Gudjohnsen,63,normal
-
+153,Blackburn Rovers,Andri Gudjohnsen,20,normal
+153,Blackburn Rovers,Andri Gudjohnsen,63,normal
 154,Hull City,Joe Gelhardt,49,normal
 154,Hull City,Darko Gyabi,87,normal
 
@@ -538,13 +536,13 @@ match_id,team,player,minute,type
 
 158,Southampton,Jay Robinson,55,normal
 158,Southampton,Leo Scienza,69,normal
-158,QPR,Rumarn Burrell,73,normal
+158,Queens Park Rangers,Rumarn Burrell,73,normal
 
 159,Sheffield Wednesday,Barry Bannan,4,normal
 159,Norwich City,Mathias Kvistgaarden,61,normal
 
-160,Preston,Thierry Small,8,normal
-160,Preston,Milutin Osmajić,49,normal
+160,Preston North End,Thierry Small,8,normal
+160,Preston North End,Milutin Osmajić,49,normal
 160,Swansea City,Ji-Sung Eom,80,normal
 
 161,Coventry City,Tatsuhiro Sakamoto,49,normal
@@ -557,16 +555,16 @@ match_id,team,player,minute,type
 162,Birmingham City,Alexander Cochrane,49,normal
 162,Birmingham City,Jay Stansfield,66,normal
 
-163,Blackburn,Yuki Ohashi,50,normal
+163,Blackburn Rovers,Yuki Ohashi,50,normal
 
-164,Charlton,Sonny Carey,95,normal
+164,Charlton Athletic,Sonny Carey,95,normal
 
 165,Derby County,Carlton Morris,27,normal
 165,Derby County,Lars-Jorgen Salvesen,83,normal
 165,Hull City,Joel Ndala,50,normal
 
 166,Watford,Imran Louza,16,normal
-166,Ipswich,Jaden Philogene,21,normal
+166,Ipswich Town,Jaden Philogene,21,normal
 
 167,Leicester City,Jordan Ayew,49,penalty
 167,Middlesbrough,Luke Ayling,96,normal
@@ -591,20 +589,20 @@ match_id,team,player,minute,type
 173,Coventry City,Mason Clark,86,normal
 
 174,Swansea City,Goncalo Franco,50,normal
-174,Ipswich,Jack Clarke,36,normal
-174,Ipswich,Cameron Burgess,55,own_goal
-174,Ipswich,Ivan Azon Monzon,76,normal
-174,Ipswich,Cameron Burgess,81,own_goal
+174,Ipswich Town,Jack Clarke,36,normal
+174,Ipswich Town,Cameron Burgess,55,own_goal
+174,Ipswich Town,Ivan Azon Monzon,76,normal
+174,Ipswich Town,Cameron Burgess,81,own_goal
 
 175,Oxford United,Will Lankshear,54,normal
-175,West Brom,Greg Leigh,56,normal
-175,West Brom,Aune Heggebo,70,normal
+175,West Bromwich Albion,Greg Leigh,56,normal
+175,West Bromwich Albion,Aune Heggebo,70,normal
 
 176,Wrexham,Josh Windass,77,penalty
 
 177,Derby County,Carlton Morris,19,normal
 177,Derby County,Patrick Agyemang,45,normal
-177,Blackburn,Yuki Ohashi,66,normal
+177,Blackburn Rovers,Yuki Ohashi,66,normal
 
 178,Hull City,Enis Destan,27,normal
 178,Hull City,Kyle Joseph,42,normal
@@ -612,7 +610,7 @@ match_id,team,player,minute,type
 178,Portsmouth,Terry Devlin,47,normal
 178,Hull City,Joe Gelhardt,79,normal
 
-179,Preston,Michael Smith,15,normal
+179,Preston North End,Michael Smith,15,normal
 179,Millwall,Mihailo Ivanović,56,normal
 
 180,Watford,Marc Bola,6,normal
@@ -646,9 +644,9 @@ match_id,team,player,minute,type
 187,Portsmouth,Jordan Williams,89,normal
 187,Millwall,Mihailo Ivanović,72,normal
 
-188,QPR,Illias Chair,38,normal
-188,QPR,Jimmy Dunne,55,normal
-188,QPR,Rumarn Burrell,66,normal
+188,Queens Park Rangers,Illias Chair,38,normal
+188,Queens Park Rangers,Jimmy Dunne,55,normal
+188,Queens Park Rangers,Rumarn Burrell,66,normal
 188,Hull City,Joe Gelhardt,17,normal
 188,Hull City,Enis Destan,51,normal
 
@@ -656,7 +654,7 @@ match_id,team,player,minute,type
 189,Bristol City,Emil Riis,31,normal
 189,Bristol City,Yu Hirakawa,82,normal
 
-190,Charlton,Lloyd Jones,46,normal
+190,Charlton Athletic,Lloyd Jones,46,normal
 190,Southampton,Ryan Manning,14,normal
 190,Southampton,Adam Armstrong,16,normal
 190,Southampton,Caspar Jander,20,normal
@@ -666,12 +664,12 @@ match_id,team,player,minute,type
 191,Coventry City,Josh Eccles,41,normal
 191,Coventry City,Ellis Simms,56,normal
 191,Coventry City,Victor Torp,61,normal
-191,West Brom,Aune Heggebo,9,normal
-191,West Brom,Aune Heggebo,32,normal
+191,West Bromwich Albion,Aune Heggebo,9,normal
+191,West Bromwich Albion,Aune Heggebo,32,normal
 
-192,Preston,Alfie Devine,46,normal
-192,Blackburn,Lewis Miller,45,normal
-192,Blackburn,Andri Gudjohnsen,62,normal
+192,Preston North End,Alfie Devine,46,normal
+192,Blackburn Rovers,Lewis Miller,45,normal
+192,Blackburn Rovers,Andri Gudjohnsen,62,normal
 
 
 205,Birmingham City,Seung-Ho Paik,31,normal
@@ -681,7 +679,7 @@ match_id,team,player,minute,type
 206,Coventry City,Josh Eccles,40,normal
 206,Coventry City,Ellis Simms,44,normal
 206,Coventry City,Ellis Simms,76,normal
-206,Charlton,Harvey Knibbs,13,normal
+206,Charlton Athletic,Harvey Knibbs,13,normal
 
 207,Derby County,Patrick Agyemang,2,normal
 207,Middlesbrough,Matt Targett,75,normal
@@ -696,21 +694,21 @@ match_id,team,player,minute,type
 209,Norwich City,Emiliano Marcondes,9,normal
 209,Norwich City,Amadou Salif Mbengue,33,own_goal
 209,Norwich City,Amankwah Forson,36,normal
-209,QPR,Rumarn Burrell,11,normal
+209,Queens Park Rangers,Rumarn Burrell,11,normal
 
 210,Sheffield Wednesday,Charlie McNeill,3,normal
 210,Sheffield Wednesday,Charlie McNeill,14,normal
-210,Preston,Benjamin Whiteman,10,normal
-210,Preston,Lewis Dobbin,57,normal
-210,Preston,Mads Frokjaer Jensen,76,normal
+210,Preston North End,Benjamin Whiteman,10,normal
+210,Preston North End,Lewis Dobbin,57,normal
+210,Preston North End,Mads Frokjaer Jensen,76,normal
 
-211,West Brom,Aune Heggebo,47,normal
-211,West Brom,Aune Heggebo,52,normal
-211,West Brom,Jayson Molumby,85,normal
+211,West Bromwich Albion,Aune Heggebo,47,normal
+211,West Bromwich Albion,Aune Heggebo,52,normal
+211,West Bromwich Albion,Jayson Molumby,85,normal
 211,Swansea City,Zan Vipotnik,1,normal
 211,Swansea City,Ethan Galbraith,11,normal
 
-212,Blackburn,Andri Gudjohnsen,13,normal
+212,Blackburn Rovers,Andri Gudjohnsen,13,normal
 212,Wrexham,Max Cleworth,95,normal
 
 213,Sheffield United,Thomas Cannon,2,normal
@@ -727,22 +725,21 @@ match_id,team,player,minute,type
 
 216,Oxford United,Mark Harris,24,normal
 216,Oxford United,Przemyslaw Placheta,77,normal
-216,Ipswich,Leif Davis,53,normal
+216,Ipswich Town,Leif Davis,53,normal
 
 217,Millwall,Mihailo Ivanović,59,normal
 
-218,Ipswich,Sindre Walle Egeli,43,normal
-218,Ipswich,George Hirst,60,normal
-218,Ipswich,Ivan Azon Monzon,95,normal
+218,Ipswich Town,Sindre Walle Egeli,43,normal
+218,Ipswich Town,George Hirst,60,normal
+218,Ipswich Town,Ivan Azon Monzon,95,normal
 
 219,Wrexham,Kieffer Moore,4,normal
-219,Preston,Harrison Armstrong,81,normal
+219,Preston North End,Harrison Armstrong,81,normal
 
-220,QPR,Jonathan Varane,49,normal
-220,QPR,Rumarn Burrell,59,normal
-220,QPR,Rumarn Burrell,87,normal
-220,West Brom,Aune Heggebo,77,normal
-
+220,Queens Park Rangers,Jonathan Varane,49,normal
+220,Queens Park Rangers,Rumarn Burrell,59,normal
+220,Queens Park Rangers,Rumarn Burrell,87,normal
+220,West Bromwich Albion,Aune Heggebo,77,normal
 221,Sheffield United,Mark McGuinness,10,normal
 221,Sheffield United,Femi Seriki,40,normal
 221,Sheffield United,Patrick Bamford,44,normal
@@ -784,20 +781,20 @@ match_id,team,player,minute,type
 231,Derby County,Jake Cooper,88,own_goal
 231,Millwall,Matt Clarke,81,own_goal
 
-232,Ipswich,Jaden Philogene,2,normal
+232,Ipswich Town,Jaden Philogene,2,normal
 
-233,QPR,Jimmy Dunne,40,normal
-233,QPR,Kieran Morgan,96,normal
+233,Queens Park Rangers,Jimmy Dunne,40,normal
+233,Queens Park Rangers,Kieran Morgan,96,normal
 233,Birmingham City,Patrick Roberts,93,normal
 
-234,Blackburn,Todd Cantwell,78,penalty
+234,Blackburn Rovers,Todd Cantwell,78,penalty
 234,Oxford United,Ciaron Brown,46,normal
 
-235,Charlton,George Edmundson,81,own_goal
+235,Charlton Athletic,George Edmundson,81,own_goal
 235,Middlesbrough,Riley McGree,33,normal
 235,Middlesbrough,Morgan Whittaker,48,normal
 
-236,Preston,Daniel Jebbison,76,normal
+236,Preston North End,Daniel Jebbison,76,normal
 236,Coventry City,Andrew Hughes,70,own_goal
 
 237,Sheffield United,Danny Ings,50,normal
@@ -806,8 +803,8 @@ match_id,team,player,minute,type
 238,Southampton,Leo Scienza,12,normal
 238,Southampton,Adam Armstrong,17,normal
 238,Southampton,Adam Armstrong,35,normal
-238,West Brom,Karlan Grant,62,normal
-238,West Brom,Nathaniel Phillips,86,normal
+238,West Bromwich Albion,Karlan Grant,62,normal
+238,West Bromwich Albion,Nathaniel Phillips,86,normal
 
 239,Swansea City,Liam Cullen,78,normal
 
@@ -827,12 +824,12 @@ match_id,team,player,minute,type
 244,Leicester City,Bobby De Cordova Reid,8,normal
 244,Leicester City,Issahaku Fatawu,43,normal
 244,Leicester City,Jordan Ayew,52,normal
-244,Ipswich,Jens Cajuste,71,normal
+244,Ipswich Town,Jens Cajuste,71,normal
 
 245,Middlesbrough,David Strelec,30,normal
 245,Middlesbrough,Morgan Whittaker,36,normal
 245,Middlesbrough,Tommy Conway,50,penalty
-245,QPR,Nicolas Madsen,70,penalty
+245,Queens Park Rangers,Nicolas Madsen,70,penalty
 
 246,Millwall,Aidomo Emakhu,80,normal
 246,Hull City,Kyle Joseph,6,normal
@@ -841,8 +838,7 @@ match_id,team,player,minute,type
 
 247,Portsmouth,Callum Lang,62,normal
 247,Portsmouth,Ibane Bowat,79,normal
-247,Blackburn,Yuki Ohashi,36,normal
-
+247,Blackburn Rovers,Yuki Ohashi,36,normal
 248,Wrexham,Josh Windass,21,normal
 248,Wrexham,Oliver Rathbone,92,normal
 248,Watford,Mamadou Doumbia,30,normal
@@ -853,35 +849,35 @@ match_id,team,player,minute,type
 249,Southampton,Ryan Manning,57,normal
 
 250,Oxford United,Brian De Keersmaecker,53,normal
-250,Preston,Jordan Storey,26,normal
-250,Preston,Daniel Jebbison,49,normal
+250,Preston North End,Jordan Storey,26,normal
+250,Preston North End,Daniel Jebbison,49,normal
 
 251,Stoke City,Ben Pearson,42,normal
 251,Stoke City,Sorba Thomas,60,normal
 251,Swansea City,Zan Vipotnik,77,normal
 
-252,West Brom,Aune Heggebo,50,normal
-252,West Brom,Karlan Grant,61,normal
+252,West Bromwich Albion,Aune Heggebo,50,normal
+252,West Bromwich Albion,Karlan Grant,61,normal
 
 253,Bristol City,Emil Riis,17,normal
 253,Bristol City,Robert Atkinson,62,normal
 
-254,Charlton,Charlie Kelman,78,normal
+254,Charlton Athletic,Charlie Kelman,78,normal
 
 255,Derby County,Hayden Matthews,45,own_goal
 255,Portsmouth,Callum Lang,6,normal
 
 256,Hull City,Oliver McBurnie,52,penalty
 
-257,Ipswich,Cedric Kipre,33,normal
-257,Ipswich,Jaden Philogene,60,normal
-257,Ipswich,Jack Clarke,87,normal
+257,Ipswich Town,Cedric Kipre,33,normal
+257,Ipswich Town,Jaden Philogene,60,normal
+257,Ipswich Town,Jack Clarke,87,normal
 257,Sheffield Wednesday,Liam Cooper,71,normal
 
-258,QPR,Koki Saito,2,normal
-258,QPR,Richard Kone,29,normal
-258,QPR,Karamoko Dembele,33,normal
-258,QPR,Amadou Salif Mbengue,48,normal
+258,Queens Park Rangers,Koki Saito,2,normal
+258,Queens Park Rangers,Richard Kone,29,normal
+258,Queens Park Rangers,Karamoko Dembele,33,normal
+258,Queens Park Rangers,Amadou Salif Mbengue,48,normal
 258,Leicester City,Siko Thomas,82,normal
 
 259,Sheffield United,Tyler Bindon,5,normal
@@ -890,10 +886,10 @@ match_id,team,player,minute,type
 
 260,Watford,Luca Kjerrumgaard,74,normal
 
-261,Blackburn,Andri Gudjohnsen,3,normal
-261,Blackburn,Yuki Ohashi,45,normal
+261,Blackburn Rovers,Andri Gudjohnsen,3,normal
+261,Blackburn Rovers,Yuki Ohashi,45,normal
 
-262,Preston,Will Keane,95,normal
+262,Preston North End,Will Keane,95,normal
 262,Norwich City,Jovon Makama,85,normal
 
 263,Southampton,Nathan Wood,56,normal
@@ -916,14 +912,14 @@ match_id,team,player,minute,type
 269,Southampton,Taylor Harwood-Bellis,29,normal
 
 270,Portsmouth,Terry Devlin,45,normal
-270,QPR,Jimmy Dunne,61,normal
+270,Queens Park Rangers,Jimmy Dunne,61,normal
 
 271,Sheffield Wednesday,Svante Ingelsson,21,normal
 271,Sheffield Wednesday,Bailey Cadamarteri,60,normal
 271,Hull City,Mohamed Belloumi,37,normal
 271,Hull City,Matt Crooks,65,normal
 
-273,West Brom,Ousmane Diakite,85,normal
+273,West Bromwich Albion,Ousmane Diakite,85,normal
 273,Bristol City,Anis Mehmeti,4,normal
 273,Bristol City,Ross McCrorie,22,normal
 
@@ -938,3 +934,77 @@ match_id,team,player,minute,type
 276,Sheffield United,Patrick Bamford,7,normal
 276,Sheffield United,Patrick Bamford,15,normal
 276,Sheffield United,Callum O'Hare,24,normal
+
+277,Ipswich Town,Jack Clarke,72,normal
+277,Ipswich Town,Wes Burns,83,normal
+
+278,Leicester City,Bobby De Cordova Reid,6,normal
+278,Leicester City,Jordan James,41,normal
+278,Derby County,Rhian Brewster,9,normal
+
+279,Hull City,Darko Gyabi,12,normal
+
+280,Millwall,Camiel Neghli,16,normal
+280,Millwall,Macaulay Langstaff,81,normal
+280,Bristol City,Adam Randell,49,normal
+
+281,Watford,Vivaldo Semedo,90,normal
+
+282,Swansea City,Zan Vipotnik,13,normal
+
+283,Portsmouth,Conor Shaughnessy,69,normal
+283,Portsmouth,Min-Hyuk Yang,90,normal
+283,Charlton Athletic,Harvey Knibbs,90,normal
+284,Stoke City,Ben Wilmot,65,normal
+284,Sheffield United,Jairo Riedewald,47,normal
+284,Sheffield United,Thomas Cannon,53,normal
+
+285,West Bromwich Albion,George Campbell,24,normal
+285,West Bromwich Albion,Nathaniel Phillips,55,normal
+285,Queens Park Rangers,Ousmane Diakite,35,own_goal
+
+286,Wrexham,Nathan Broadhead,39,normal
+286,Wrexham,Oliver Rathbone,77,normal
+286,Preston North End,Alfie Devine,84,normal
+
+287,Birmingham City,Phil Neumann,49,normal
+287,Southampton,Cameron Archer,72,normal
+
+288,Wrexham,Sam Smith,11,normal
+288,Wrexham,Oliver Rathbone,38,normal
+
+289,Bristol City,Adam Randell,11,normal
+289,Bristol City,Anis Mehmeti,24,normal
+289,Bristol City,Scott Twine,50,normal
+289,Bristol City,Sinclair Armstrong,59,normal
+289,Bristol City,Sinclair Armstrong,90+3,normal
+
+290,Charlton Athletic,Joe Rankin-Costello,69,normal
+290,Coventry City,Ellis Simms,3,normal
+
+291,Derby County,Bobby Clark,70,normal
+
+292,Stoke City,Robert Bozenik,39,normal
+
+293,Ipswich Town,Jaden Philogene,17,normal
+293,Ipswich Town,Chuba Akpom,40,normal
+293,Oxford United,Will Lankshear,34,normal
+
+294,Preston North End,Ali McCann,28,normal
+294,Preston North End,Milutin Osmajic,61,normal
+294,Preston North End,Lewis Dobbin,85,normal
+
+295,Queens Park Rangers,Amadou Salif Mbengue,90+9,normal
+295,Norwich City,Joshua Sargent,46,normal
+295,Norwich City,Jovon Makama,90+6,normal
+
+297,Swansea City,Jay Fulton,74,normal
+
+298,Watford,Tom Ince,9,normal
+298,Watford,Tom Ince,38,normal
+298,Watford,Tom Ince,60,normal
+
+299,Sheffield United,Japhet Tanganga,36,normal
+299,Sheffield United,Thomas Cannon,52,normal
+299,Sheffield United,Callum O'Hare,88,normal
+299,Leicester City,Jordan James,90+2,normal
